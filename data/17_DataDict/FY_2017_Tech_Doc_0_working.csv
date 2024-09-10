@@ -1,0 +1,2116 @@
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK FO,R THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE              ORIGIN* DESCRIPTION                            Quick-Reference Codebook,VARIABLE,ORIGIN* DESCRIPTION                            Quick-Reference Codebook
+,,
+NOTE: Detailed information on each variable in the database can be found starting on page 59.,NOTE: Detailed,information on each variable in the database can be found starting on page 59.
+Unit QC review administrative data,Unit QC review,administrative data
+ACTNTYPE                  R       Type of action,ACTNTYPE,R       Type of action
+ALLADJ                    R       Allotment adjustment,ALLADJ,R       Allotment adjustment
+AMTADJ                    R       Amount of allotment adjustment,AMTADJ,R       Amount of allotment adjustment
+AUTHREP                   R       Authorized representative,AUTHREP,R       Authorized representative
+BENFIX                    C       Benefit allotment (SNAP benefit) adjusted for errors,BENFIX,C       Benefit allotment (SNAP benefit) adjusted for errors
+CASE                      R       Case classification,CASE,R       Case classification
+CAT_ELIG                  C       Indicator of categorical eligibility status,CAT_ELIG,C       Indicator of categorical eligibility status
+CERTMTH                   R       Months in certification period,CERTMTH,R       Months in certification period
+EXPEDSER                  R       Received expedited service,EXPEDSER,R       Received expedited service
+HHLDNO                    C       SNAP household identification number,HHLDNO,C       SNAP household identification number
+LASTCERT                  C       Months since last SNAP certification,LASTCERT,C       Months since last SNAP certification
+LOCALCOD                  R       Local agency code (not retained on public use file),LOCALCOD,R       Local agency code (not retained on public use file)
+MED_DED_DEMO              C       Indicator of standard medical deduction demonstration,MED_DED_DEMO,C       Indicator of standard medical deduction demonstration
+participation,participation,
+MN_FIP                    C       Indicator of MFIP participation,MN_FIP,C       Indicator of MFIP participation
+PURE_PA                   C       Indicator of pure cash public assistance status,PURE_PA,C       Indicator of pure cash public assistance status
+RCNTACTN                  R       Most recent action on case,RCNTACTN,R       Most recent action on case
+REP_SYS                   R       Reporting requirement,REP_SYS,R       Reporting requirement
+REVNUM                    R       State QC review number (not retained on public use file),REVNUM,R       State QC review number (not retained on public use file)
+SSI_CAP                   C       Indicator of SSI-CAP participation,SSI_CAP,C       Indicator of SSI-CAP participation
+STATUS                    R       Status of case error findings,STATUS,R       Status of case error findings
+YRMONTH                   R       Sample year and month,YRMONTH,R       Sample year and month
+Unit demographics and sample weights,Unit demograph,ics and sample weights
+AK_AREA                   C        Alaska region (not retained on public use file),AK_AREA,C        Alaska region (not retained on public use file)
+CERTHHSZ                  R        Certified unit size,CERTHHSZ,R        Certified unit size
+COMPOSITION               C        Unit composition,COMPOSITION,C        Unit composition
+COUNTYCD                  C        FIPS code for county (not retained on public use file),COUNTYCD,C        FIPS code for county (not retained on public use file)
+CTPRHH                    C        Number of people in household,CTPRHH,C        Number of people in household
+FSDIS                     C        Indicator of non-elderly individuals with disabilities in unit,FSDIS,C        Indicator of non-elderly individuals with disabilities in unit
+FSELDER                   C        Indicator of elderly individuals in unit,FSELDER,C        Indicator of elderly individuals in unit
+FSKID                     C        Indicator of children in unit,FSKID,C        Indicator of children in unit
+FSNDIS                    C        Number of non-elderly individuals with disabilities in unit,FSNDIS,C        Number of non-elderly individuals with disabilities in unit
+FSNDISCA                  C        Number of adults age 18 to 49 without disabilities in childless,FSNDISCA,C        Number of adults age 18 to 49 without disabilities in childless
+units,units,
+FSNELDER                   C       Number of elderly individuals in unit,FSNELDER,C       Number of elderly individuals in unit
+FSNGMOM                    C       Indicator of single-female-headed unit,FSNGMOM,C       Indicator of single-female-headed unit
+FSNK0T4                    C       Number of preschool-age children in unit,FSNK0T4,C       Number of preschool-age children in unit
+FSNK5T17                   C       Number of school-age children in unit,FSNK5T17,C       Number of school-age children in unit
+FSNKID                     C       Number of children in unit,FSNKID,C       Number of children in unit
+FSNONCIT                   C       Number of noncitizens in unit,FSNONCIT,C       Number of noncitizens in unit
+*R indicates the variable is from the raw data; C indicates the variable was constructed.,*R indicates t,he variable is from the raw data; C indicates the variable was constructed.
+,,
+,,
+54,54,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE              ORIGIN* DESCRIPTION                            Quick-Reference Codebook,VARIABLE,ORIGIN* DESCRIPTION                            Quick-Reference Codebook
+,,
+FSUSIZE                   C       Constructed certified unit size,FSUSIZE,C       Constructed certified unit size
+FYWGT                     C       Weight used for full-year calculations,FYWGT,C       Weight used for full-year calculations
+HWGT                      C       Monthly sample weight,HWGT,C       Monthly sample weight
+NONCIT_HEAD               C       Unit head citizenship indicator,NONCIT_HEAD,C       Unit head citizenship indicator
+RAWHSIZE                  R       Reported number of people in household,RAWHSIZE,R       Reported number of people in household
+REGION                    C       Constructed census region code,REGION,C       Constructed census region code
+REGIONCD                  R       FNS region code,REGIONCD,R       FNS region code
+STATE                     R       FIPS code for State or territory,STATE,R       FIPS code for State or territory
+STATENAME                 C       State or territory,STATENAME,C       State or territory
+STRATUM                   R       Stratum identification,STRATUM,R       Stratum identification
+TANF_IND                  C       Indicator of TANF receipt for unit,TANF_IND,C       Indicator of TANF receipt for unit
+TPOV                      C       Gross income/poverty level ratio,TPOV,C       Gross income/poverty level ratio
+URBRUR                    C       Urban/rural indicator (not retained on public use file),URBRUR,C       Urban/rural indicator (not retained on public use file)
+WRK_POOR                  C       Indicator of working poor unit,WRK_POOR,C       Indicator of working poor unit
+,,
+,,
+Unit countable income (monthly dollar amounts),Unit countable,income (monthly dollar amounts)
+FSCONT                    C       Countable unit income from contributions,FSCONT,C       Countable unit income from contributions
+FSCSUPRT                  C       Countable unit child support payment income,FSCSUPRT,C       Countable unit child support payment income
+FSDEEM                    C       Countable unit deemed income,FSDEEM,C       Countable unit deemed income
+FSDIVER                   C       Countable unit State diversion payments,FSDIVER,C       Countable unit State diversion payments
+FSEARN                    C       Countable unit earned income,FSEARN,C       Countable unit earned income
+FSEDLOAN                  C       Countable unit income from educational grants and loans,FSEDLOAN,C       Countable unit income from educational grants and loans
+FSEITC                    C       Countable unit income from earned income tax credit,FSEITC,C       Countable unit income from earned income tax credit
+FSENERGY                  C       Countable unit energy assistance income,FSENERGY,C       Countable unit energy assistance income
+FSFOSTER                  C       Countable unit foster care income,FSFOSTER,C       Countable unit foster care income
+FSGA                      C       Countable unit general assistance benefits,FSGA,C       Countable unit general assistance benefits
+FSGRINC                   C       Final gross countable unit income,FSGRINC,C       Final gross countable unit income
+FSNETINC                  C       Final net countable unit income,FSNETINC,C       Final net countable unit income
+FSOTHERN                  C       Countable unit other earned income,FSOTHERN,C       Countable unit other earned income
+FSOTHGOV                  C       Countable unit income from other government benefits,FSOTHGOV,C       Countable unit income from other government benefits
+FSOTHUN                   C       Countable unit other unearned income,FSOTHUN,C       Countable unit other unearned income
+FSSLFEMP                  C       Countable unit self-employment income,FSSLFEMP,C       Countable unit self-employment income
+FSSOCSEC                  C       Countable unit Social Security income,FSSOCSEC,C       Countable unit Social Security income
+FSSSI                     C       Countable unit SSI benefits,FSSSI,C       Countable unit SSI benefits
+FSTANF                    C       Countable unit TANF payments,FSTANF,C       Countable unit TANF payments
+FSUNEARN                  C       Countable unit unearned income,FSUNEARN,C       Countable unit unearned income
+FSUNEMP                   C       Countable unit unemployment compensation benefits,FSUNEMP,C       Countable unit unemployment compensation benefits
+FSVET                     C       Countable unit veterans’ benefits,FSVET,C       Countable unit veterans’ benefits
+FSWAGES                   C       Countable unit wages and salaries,FSWAGES,C       Countable unit wages and salaries
+FSWCOMP                   C       Countable unit workers’ compensation benefits,FSWCOMP,C       Countable unit workers’ compensation benefits
+FSWGESUP                  C       Countable unit wage supplementation income,FSWGESUP,C       Countable unit wage supplementation income
+RAWGROSS                  R       Reported gross countable unit income,RAWGROSS,R       Reported gross countable unit income
+RAWNET                    R       Reported net countable unit income,RAWNET,R       Reported net countable unit income
+,,
+,,
+,,
+55,55,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE              ORIGIN* DESCRIPTION                          Quick-Reference Codebook,VARIABLE,ORIGIN* DESCRIPTION                          Quick-Reference Codebook
+,,
+Unit countable and reported assets,Unit countable,and reported assets
+FSASSET                   C       Total countable assets under State rules,FSASSET,C       Total countable assets under State rules
+FSVEHAST                  C       Countable non-excluded vehicles’ value under State rules,FSVEHAST,C       Countable non-excluded vehicles’ value under State rules
+LIQRESOR                  C       Countable liquid assets under State rules,LIQRESOR,C       Countable liquid assets under State rules
+OTHNLRES                  C       Countable other nonliquid assets under State rules,OTHNLRES,C       Countable other nonliquid assets under State rules
+RAWLQRES                  R       Reported liquid assets,RAWLQRES,R       Reported liquid assets
+RAWOTRES                  R       Reported other nonliquid assets,RAWOTRES,R       Reported other nonliquid assets
+RAWRPROP                  R       Reported real property,RAWRPROP,R       Reported real property
+RAWVHAST                  R       Reported non-excluded vehicles’ value,RAWVHAST,R       Reported non-excluded vehicles’ value
+REALPROP                  C       Countable real property under State rules,REALPROP,C       Countable real property under State rules
+VEHICLEA                  R       Reported category for first vehicle,VEHICLEA,R       Reported category for first vehicle
+VEHICLEB                  R       Reported category for second vehicle,VEHICLEB,R       Reported category for second vehicle
+,,
+Unit expenses and deductions,Unit expenses,and deductions
+ERN_INC_DED_PCT           C       Percentage used to calculate earned income deduction,ERN_INC_DED_PC,T           C       Percentage used to calculate earned income deduction
+EXCL_FSCSDED              C       Child support excluded from gross income,EXCL_FSCSDED,C       Child support excluded from gross income
+FSCSDED                   C       Child support payment deduction,FSCSDED,C       Child support payment deduction
+FSCSEXP                   R       Reported child support payment deduction,FSCSEXP,R       Reported child support payment deduction
+FSDEPDED                  R       Reported dependent care deduction,FSDEPDED,R       Reported dependent care deduction
+FSDEPDE2                  C       Marginal effectiveness of dependent care deduction,FSDEPDE2,C       Marginal effectiveness of dependent care deduction
+FSERNDED                  C       Calculated earned income deduction,FSERNDED,C       Calculated earned income deduction
+FSERNDE2                  C       Marginal effectiveness of earned income deduction,FSERNDE2,C       Marginal effectiveness of earned income deduction
+FSMEDDED                  C       Calculated medical expense deduction,FSMEDDED,C       Calculated medical expense deduction
+FSMEDDE2                  C       Marginal effectiveness of medical expense deduction,FSMEDDE2,C       Marginal effectiveness of medical expense deduction
+FSMEDEXP                  R       Reported medical expenses,FSMEDEXP,R       Reported medical expenses
+FSSLTDED                  C       Calculated excess shelter expense deduction,FSSLTDED,C       Calculated excess shelter expense deduction
+FSSLTDE2                  C       Marginal effectiveness of excess shelter expense deduction,FSSLTDE2,C       Marginal effectiveness of excess shelter expense deduction
+FSSLTEXP                  C       Calculated shelter expenses,FSSLTEXP,C       Calculated shelter expenses
+FSSTDDED                  C       Standard deduction,FSSTDDED,C       Standard deduction
+FSSTDDE2                  C       Marginal effectiveness of standard deduction,FSSTDDE2,C       Marginal effectiveness of standard deduction
+FSTOTDED                  C       Total deductions,FSTOTDED,C       Total deductions
+FSTOTDE2                  C       Marginal effectiveness of total deduction,FSTOTDE2,C       Marginal effectiveness of total deduction
+HOMEDED                   R       Indicator of homelessness,HOMEDED,R       Indicator of homelessness
+HOMELESS_DED              C       Amount of homeless household shelter deduction,HOMELESS_DED,C       Amount of homeless household shelter deduction
+RAWERND                   R       Reported earned income deduction,RAWERND,R       Reported earned income deduction
+RENT                      R       Rent/mortgage amount,RENT,R       Rent/mortgage amount
+SHELCAP                   C       Maximum allowable shelter expense deduction,SHELCAP,C       Maximum allowable shelter expense deduction
+SHELDED                   R       Reported shelter deduction,SHELDED,R       Reported shelter deduction
+SUA1                      R       Standard utility allowance – usage and entitlement,SUA1,R       Standard utility allowance – usage and entitlement
+SUA2                      R       Standard utility allowance – prorated,SUA2,R       Standard utility allowance – prorated
+UTIL                      R       Utility amount,UTIL,R       Utility amount
+,,
+,,
+,,
+,,
+56,56,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE              ORIGIN* DESCRIPTION                             Quick-Reference Codebook,VARIABLE,ORIGIN* DESCRIPTION                             Quick-Reference Codebook
+,,
+Unit benefits,Unit benefits,
+AMTERR                    R       Amount of benefit in error,AMTERR,R       Amount of benefit in error
+ASSLIM                    C       Asset limit,ASSLIM,C       Asset limit
+BENMAX                    C       Maximum benefit amount,BENMAX,C       Maximum benefit amount
+FSASTEST                  C       Indicator of passing asset test,FSASTEST,C       Indicator of passing asset test
+FSBEN                     C       Final calculated benefit,FSBEN,C       Final calculated benefit
+FSGRTEST                  C       Indicator of passing gross income test,FSGRTEST,C       Indicator of passing gross income test
+FSMINBEN                  C       Received minimum benefit,FSMINBEN,C       Received minimum benefit
+FSNETEST                  C       Indicator of passing net income test,FSNETEST,C       Indicator of passing net income test
+GROSSCRN                  C       Gross income screen,GROSSCRN,C       Gross income screen
+MINIMUM_BEN               C       Minimum benefit amount,MINIMUM_BEN,C       Minimum benefit amount
+NETSCRN                   C       Net income screen,NETSCRN,C       Net income screen
+RAWBEN                    R       Reported SNAP benefit received,RAWBEN,R       Reported SNAP benefit received
+,,
+Person-level characteristics: i = 1 to 16,Person-level c,haracteristics: i = 1 to 16
+ABWDSTi                   R       ABAWD status,ABWDSTi,R       ABAWD status
+AGEi                      R       Age,AGEi,R       Age
+CTZNi                     R       Citizenship status,CTZNi,R       Citizenship status
+DISi                      C       Person-level disability indicator,DISi,C       Person-level disability indicator
+DPCOSTi                   R       Reported dependent care cost,DPCOSTi,R       Reported dependent care cost
+EMPRGi                    R       SNAP Employment and Training program status,EMPRGi,R       SNAP Employment and Training program status
+EMPSTAi                   R       Employment status – type,EMPSTAi,R       Employment status – type
+EMPSTBi                   R       Employment status – amount,EMPSTBi,R       Employment status – amount
+FSAFILi                   R       SNAP case affiliation,FSAFILi,R       SNAP case affiliation
+FSUNi                     C       Position of head of SNAP unit,FSUNi,C       Position of head of SNAP unit
+NDISCAi                   C       Adult age 18 to 49 without disabilities in childless unit status,NDISCAi,C       Adult age 18 to 49 without disabilities in childless unit status
+RACETHi                   R       Race/ethnicity,RACETHi,R       Race/ethnicity
+RELi                      R       Relationship to head of household,RELi,R       Relationship to head of household
+SEXi                      R       Sex,SEXi,R       Sex
+WORKi                     C       Person-level working indicator,WORKi,C       Person-level working indicator
+WRKREGi                   R       Work registration status,WRKREGi,R       Work registration status
+YRSEDi                    R       Highest educational level completed,YRSEDi,R       Highest educational level completed
+,,
+Person-level countable income (monthly dollar amounts): i = 1 to 16,Person-level c,ountable income (monthly dollar amounts): i = 1 to 16
+CONTi                     R       Countable income from contributions,CONTi,R       Countable income from contributions
+CSUPRTi                   R       Countable child support payment income,CSUPRTi,R       Countable child support payment income
+DEEMi                     R       Countable deemed income,DEEMi,R       Countable deemed income
+DIVERi                    R       Countable State diversion payments,DIVERi,R       Countable State diversion payments
+EDLOANi                   R       Countable income from educational grants and loans,EDLOANi,R       Countable income from educational grants and loans
+EITCi                     R       Countable income from earned income tax credit,EITCi,R       Countable income from earned income tax credit
+ENERGYi                   R       Countable energy assistance income,ENERGYi,R       Countable energy assistance income
+FOSTERi                   R       Countable foster child income,FOSTERi,R       Countable foster child income
+GAi                       R       Countable general assistance benefits,GAi,R       Countable general assistance benefits
+OTHERNi                   R       Countable other earned income,OTHERNi,R       Countable other earned income
+,,
+,,
+57,57,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE              ORIGIN* DESCRIPTION                           Quick-Reference Codebook,VARIABLE,ORIGIN* DESCRIPTION                           Quick-Reference Codebook
+,,
+OTHGOVi                   R       Countable income from other government benefits,OTHGOVi,R       Countable income from other government benefits
+OTHUNi                    R       Countable other unearned income,OTHUNi,R       Countable other unearned income
+SLFEMPi                   R       Countable self-employment income,SLFEMPi,R       Countable self-employment income
+SOCSECi                   R       Countable Social Security income,SOCSECi,R       Countable Social Security income
+SSIi                      R       Countable SSI benefits,SSIi,R       Countable SSI benefits
+TANFi                     R       Countable TANF payments,TANFi,R       Countable TANF payments
+UNEMPi                    R       Countable unemployment compensation benefits,UNEMPi,R       Countable unemployment compensation benefits
+VETi                      R       Countable veterans’ benefits,VETi,R       Countable veterans’ benefits
+WAGESi                    R       Countable wages and salaries,WAGESi,R       Countable wages and salaries
+WCOMPi                    R       Countable workers’ compensation benefits,WCOMPi,R       Countable workers’ compensation benefits
+WGESUPi                   R       Countable wage supplementation income,WGESUPi,R       Countable wage supplementation income
+,,
+Detailed error findings: i = 1 to 9,Detailed error,findings: i = 1 to 9
+AGENCYi                   R       Agency or client responsibility,AGENCYi,R       Agency or client responsibility
+AMOUNTi                   R       Variance dollar amount,AMOUNTi,R       Variance dollar amount
+DISCOVi                   R       Variance discovery,DISCOVi,R       Variance discovery
+E_FINDGi                  R       Error finding,E_FINDGi,R       Error finding
+ELEMENTi                  R       Variance element,ELEMENTi,R       Variance element
+NATUREi                   R       Nature of variance,NATUREi,R       Nature of variance
+OCCDATEi                  R       Variance occurrence date,OCCDATEi,R       Variance occurrence date
+TIMEPERi                  R       Variance time period,TIMEPERi,R       Variance time period
+VERIFi                    R       Variance verification,VERIFi,R       Variance verification
+,,
+,,
+,,
+,,
+58,58,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Unit QC Review Administrative Data,Unit QC Review,Administrative Data
+Unit QC review administrative data,Unit QC review,administrative data
+ACTNTYPE                  R       TYPE OF ACTION,ACTNTYPE,R       TYPE OF ACTION
+"Range = (1, 2)","Range = (1, 2)",
+1 = Certification,1 = Certificat,ion
+2 = Recertification,2 = Recertific,ation
+,,
+ALLADJ                    R       ALLOTMENT ADJUSTMENT,ALLADJ,R       ALLOTMENT ADJUSTMENT
+"Range = (1, 3)","Range = (1, 3)",
+1 = No adjustment,1 = No adjustm,ent
+2 = Prorated benefit,2 = Prorated b,enefit
+3 = Other adjustment,3 = Other adju,stment
+,,
+AMTADJ                    R       AMOUNT OF ALLOTMENT ADJUSTMENT,AMTADJ,R       AMOUNT OF ALLOTMENT ADJUSTMENT
+"Range = (0, 1683)","Range = (0, 16",83)
+,,
+AUTHREP                   R       AUTHORIZED REPRESENTATIVE,AUTHREP,R       AUTHORIZED REPRESENTATIVE
+"Range = (1, 2)","Range = (1, 2)",
+1 = Used to make application,1 = Used to ma,ke application
+2 = Not used to make application,2 = Not used t,o make application
+,,
+BENFIX                    C       BENEFIT ALLOTMENT ADJUSTED FOR ERRORS,BENFIX,C       BENEFIT ALLOTMENT ADJUSTED FOR ERRORS
+"Range = (0, 2761)","Range = (0, 27",61)
+,,
+CASE                      R       CASE CLASSIFICATION,CASE,R       CASE CLASSIFICATION
+"Range = (1, 3)","Range = (1, 3)",
+1 = Included in error rate calculation,1 = Included i,n error rate calculation
+2 = Excluded from error rate calculation – processed by SSA,2 = Excluded f,rom error rate calculation – processed by SSA
+worker,worker,
+"3 = Excluded from error rate calculation, as designated by FNS",3 = Excluded f,"rom error rate calculation, as designated by FNS"
+"(for example, demonstration project, simplified SNAP)","(for example,","demonstration project, simplified SNAP)"
+,,
+CAT_ELIG                  C       INDICATOR OF CATEGORICAL ELIGIBILITY STATUS,CAT_ELIG,C       INDICATOR OF CATEGORICAL ELIGIBILITY STATUS
+"Range = (0, 2)","Range = (0, 2)",
+0 = Unit not categorically eligible for benefits,0 = Unit not c,ategorically eligible for benefits
+1 = Unit reported as categorically eligible for benefits and,1 = Unit repor,ted as categorically eligible for benefits and
+therefore not subject to SNAP income or asset tests (unit,therefore not,subject to SNAP income or asset tests (unit
+subject to State-determined income and/or asset limit on,subject to Sta,te-determined income and/or asset limit on
+cash Public Assistance [PA] or noncash TANF-funded,cash Public As,sistance [PA] or noncash TANF-funded
+benefit used to confer categorical eligibility),benefit used t,o confer categorical eligibility)
+2 = Unit recoded as categorically eligible after being identified,2 = Unit recod,ed as categorically eligible after being identified
+as pure cash PA or as meeting State-specified criteria for,as pure cash P,A or as meeting State-specified criteria for
+BBCE and therefore not subject to SNAP income or asset,BBCE and there,fore not subject to SNAP income or asset
+tests,tests,
+,,
+,,
+,,
+,,
+59,59,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Unit QC Review Administrative Data,Unit QC Review,Administrative Data
+CERTMTH                   R       MONTHS IN CERTIFICATION PERIOD,CERTMTH,R       MONTHS IN CERTIFICATION PERIOD
+"Range = (0, 84)","Range = (0, 84",)
+Number of months SNAP unit was certified to participate,Number of mont,hs SNAP unit was certified to participate
+during current certification or recertification period.,during current,certification or recertification period.
+,,
+EXPEDSER                  R       RECEIVED EXPEDITED SERVICE,EXPEDSER,R       RECEIVED EXPEDITED SERVICE
+"Range = (1, 3)","Range = (1, 3)",
+1 = Entitled to expedited service and received benefits within,1 = Entitled t,o expedited service and received benefits within
+Federal time frame,Federal time f,rame
+2 = Entitled to expedited service but did not receive benefits,2 = Entitled t,o expedited service but did not receive benefits
+within Federal time frame,within Federal,time frame
+3 = Not entitled to expedited service,3 = Not entitl,ed to expedited service
+,,
+HHLDNO                    C       SNAP HOUSEHOLD IDENTIFICATION NUMBER,HHLDNO,C       SNAP HOUSEHOLD IDENTIFICATION NUMBER
+"Range = (1, 55592)","Range = (1, 55",592)
+Position of unit in unedited SNAP QC file (unique unit,Position of un,it in unedited SNAP QC file (unique unit
+identifier).,identifier).,
+,,
+LASTCERT                  C       MONTHS SINCE LAST SNAP CERTIFICATION,LASTCERT,C       MONTHS SINCE LAST SNAP CERTIFICATION
+"Range = (0, 91)","Range = (0, 91",)
+,,
+LOCALCOD                  R       LOCAL AGENCY CODE (not retained on public use file),LOCALCOD,R       LOCAL AGENCY CODE (not retained on public use file)
+"Range = (0, 930)","Range = (0, 93",0)
+Designates local agency and allows grouping of data by county,Designates loc,al agency and allows grouping of data by county
+or county equivalent (may be FIPS code or alternative,or county equi,valent (may be FIPS code or alternative
+classification).,classification,).
+,,
+MED_DED_DEMO              C       INDICATOR OF STANDARD MEDICAL DEDUCTION,MED_DED_DEMO,C       INDICATOR OF STANDARD MEDICAL DEDUCTION
+DEMONSTRATION PARTICIPATION,DEMONSTRATION,PARTICIPATION
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+,,
+MN_FIP                    C       INDICATOR OF MFIP PARTICIPATION,MN_FIP,C       INDICATOR OF MFIP PARTICIPATION
+We recommend using MN_FIP with the understanding that,We recommend u,sing MN_FIP with the understanding that
+it may slightly underestimate the number of MFIP units.,it may slightl,y underestimate the number of MFIP units.
+We recommend against using MFIP units’ TANF income,We recommend a,gainst using MFIP units’ TANF income
+because it is not included as gross income and is most likely,because it is,not included as gross income and is most likely
+"recorded incorrectly, if at all. See Appendix A for details.",recorded incor,"rectly, if at all. See Appendix A for details."
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+,,
+,,
+,,
+,,
+60,60,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                           MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                           MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Unit QC Review Administrative Data,Unit QC Review,Administrative Data
+PURE_PA                   C       INDICATOR OF PURE CASH PUBLIC ASSISTANCE,PURE_PA,C       INDICATOR OF PURE CASH PUBLIC ASSISTANCE
+STATUS,STATUS,
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+A unit is pure cash public assistance (pure PA) when everyone,A unit is pure,cash public assistance (pure PA) when everyone
+"in the unit receives TANF, GA, or SSI or the unit has TANF",in the unit re,"ceives TANF, GA, or SSI or the unit has TANF"
+"income and every adult receives TANF, GA, or SSI.",income and eve,"ry adult receives TANF, GA, or SSI."
+,,
+RCNTACTN                  R       MOST RECENT ACTION ON CASE,RCNTACTN,R       MOST RECENT ACTION ON CASE
+"Range = (20070101, 20170929)",Range = (20070,"101, 20170929)"
+Date the case was certified or recertified for participation in,Date the case,was certified or recertified for participation in
+sample month under review (in yyyymmdd format).,sample month u,nder review (in yyyymmdd format).
+,,
+REP_SYS                   R       REPORTING REQUIREMENT,REP_SYS,R       REPORTING REQUIREMENT
+"Range = (1, 10)","Range = (1, 10",)
+1 = $25 change reporting,1 = $25 change,reporting
+2 = $80 change in earned income,2 = $80 change,in earned income
+3 = $100 change in earned income,3 = $100 chang,e in earned income
+4 = Status reporting,4 = Status rep,orting
+5 = 5-hour change in hours worked and expected to continue,5 = 5-hour cha,nge in hours worked and expected to continue
+over a month,over a month,
+6 = Simplified reporting (exceeding 130 percent of income,6 = Simplified,reporting (exceeding 130 percent of income
+poverty guidelines),poverty guidel,ines)
+7 = Quarterly reporting,7 = Quarterly,reporting
+8 = Monthly reporting,8 = Monthly re,porting
+9 = Transitional benefits (no reporting requirement),9 = Transition,al benefits (no reporting requirement)
+10 = Other,10 = Other,
+,,
+REVNUM                    R       STATE QC REVIEW NUMBER (not retained on public use,REVNUM,R       STATE QC REVIEW NUMBER (not retained on public use
+file),file),
+"Range = (1, 880904)","Range = (1, 88",0904)
+,,
+SSI_CAP                   C       INDICATOR OF SSI-CAP PARTICIPATION,SSI_CAP,C       INDICATOR OF SSI-CAP PARTICIPATION
+"We recommend using SSI_CAP, with the understanding",We recommend u,"sing SSI_CAP, with the understanding"
+that it likely underestimates the actual number of SSI-CAP,that it likely,underestimates the actual number of SSI-CAP
+units. See Appendix A for details.,units. See App,endix A for details.
+"Range = (0, 3)","Range = (0, 3)",
+0 = Not in SSI-CAP,0 = Not in SSI,#NAME?
+1 = SSI-CAP case with standard shelter expenses,1 = SSI-CAP ca,se with standard shelter expenses
+"2 = SSI-CAP case with standard benefit, consistent with",2 = SSI-CAP ca,"se with standard benefit, consistent with"
+program rules,program rules,
+"3 = SSI-CAP case with standard benefit, inconsistent with",3 = SSI-CAP ca,"se with standard benefit, inconsistent with"
+program rules,program rules,
+,,
+,,
+,,
+61,61,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                           MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                           MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Unit QC Review Administrative Data,Unit QC Review,Administrative Data
+STATUS                    R       STATUS OF CASE ERROR FINDINGS,STATUS,R       STATUS OF CASE ERROR FINDINGS
+"Range = (1, 3)","Range = (1, 3)",
+1 = Amount correct,1 = Amount cor,rect
+2 = Overissuance,2 = Overissuan,ce
+3 = Underissuance,3 = Underissua,nce
+,,
+YRMONTH                   R       SAMPLE YEAR AND MONTH,YRMONTH,R       SAMPLE YEAR AND MONTH
+"Range = (201610, 201709)",Range = (20161,"0, 201709)"
+Allows user to select one or more sample months from full-,Allows user to,select one or more sample months from full-
+year file for analyses. The YRMONTH variable is a six-digit,year file for,analyses. The YRMONTH variable is a six-digit
+code; the first four digits indicate the sample year and the last,code; the firs,t four digits indicate the sample year and the last
+two indicate the month. To select observations from January,two indicate t,he month. To select observations from January
+"2017, for example, YRMONTH should equal 201701.","2017, for exam","ple, YRMONTH should equal 201701."
+,,
+,,
+,,
+,,
+62,62,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                            Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                            Detailed Codebook
+Unit Demographics and Sample Weights,Unit Demograph,ics and Sample Weights
+Unit demographics and sample weights,Unit demograph,ics and sample weights
+AK_AREA                   C       ALASKA REGION (not retained on public use file),AK_AREA,C       ALASKA REGION (not retained on public use file)
+"Range = (1, 3)","Range = (1, 3)",
+1 = Alaska Rural I,1 = Alaska Rur,al I
+2 = Alaska Rural II,2 = Alaska Rur,al II
+3 = Alaska Urban,3 = Alaska Urb,an
+,,
+CERTHHSZ                  R       CERTIFIED UNIT SIZE,CERTHHSZ,R       CERTIFIED UNIT SIZE
+"Range = (1, 14)","Range = (1, 14",)
+,,
+COMPOSITION               C       UNIT COMPOSITION,COMPOSITION,C       UNIT COMPOSITION
+"Range = (0, 5)","Range = (0, 5)",
+0 = No children,0 = No childre,n
+1 = Child(ren) only,1 = Child(ren),only
+2 = Child(ren) and one male adult,2 = Child(ren),and one male adult
+3 = Child(ren) and one female adult,3 = Child(ren),and one female adult
+4 = Child(ren) and married unit head (spouse may be,4 = Child(ren),and married unit head (spouse may be
+nonparticipating; includes married teens),nonparticipati,ng; includes married teens)
+5 = Child(ren) with other multiple adults,5 = Child(ren),with other multiple adults
+,,
+COUNTYCD                  C       FIPS CODE FOR COUNTY (not retained on public use file),COUNTYCD,C       FIPS CODE FOR COUNTY (not retained on public use file)
+"Range = (1, 840)","Range = (1, 84",0)
+,,
+CTPRHH                    C       NUMBER OF PEOPLE IN HOUSEHOLD,CTPRHH,C       NUMBER OF PEOPLE IN HOUSEHOLD
+"Range = (1, 14)","Range = (1, 14",)
+Number of people in household with nonmissing person-level,Number of peop,le in household with nonmissing person-level
+information.,information.,
+,,
+FSDIS                     C       INDICATOR OF NON-ELDERLY INDIVIDUALS WITH,FSDIS,C       INDICATOR OF NON-ELDERLY INDIVIDUALS WITH
+DISABILITIES IN UNIT,DISABILITIES I,N UNIT
+"Range = (0, 1)","Range = (0, 1)",
+We recommend using FSDIS with the understanding that it,We recommend u,sing FSDIS with the understanding that it
+likely underestimates the number of units with non-elderly,likely underes,timates the number of units with non-elderly
+individuals with disabilities. See Appendix A for details.,individuals wi,th disabilities. See Appendix A for details.
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+A SNAP unit with one or more individuals that are defined as,A SNAP unit wi,th one or more individuals that are defined as
+disabled (DISi = 1).,disabled (DISi,= 1).
+,,
+FSELDER                   C       INDICATOR OF ELDERLY INDIVIDUALS IN UNIT,FSELDER,C       INDICATOR OF ELDERLY INDIVIDUALS IN UNIT
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+A SNAP unit with one or more elderly individuals.,A SNAP unit wi,th one or more elderly individuals.
+,,
+,,
+,,
+63,63,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Unit Demographics and Sample Weights,Unit Demograph,ics and Sample Weights
+FSKID                     C       INDICATOR OF CHILDREN IN UNIT,FSKID,C       INDICATOR OF CHILDREN IN UNIT
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+A SNAP unit with one or more children under age 18.,A SNAP unit wi,th one or more children under age 18.
+,,
+FSNDIS                    C       NUMBER OF NON-ELDERLY INDIVIDUALS WITH,FSNDIS,C       NUMBER OF NON-ELDERLY INDIVIDUALS WITH
+DISABILITIES IN UNIT,DISABILITIES I,N UNIT
+We recommend using FSNDIS with the understanding that,We recommend u,sing FSNDIS with the understanding that
+it likely underestimates the number of non-elderly,it likely unde,restimates the number of non-elderly
+individuals with disabilities and the number of units,individuals wi,th disabilities and the number of units
+containing such individuals. See Appendix A for details.,containing suc,h individuals. See Appendix A for details.
+"Range = (0, 4)","Range = (0, 4)",
+Number of individuals in the unit that are defined as disabled,Number of indi,viduals in the unit that are defined as disabled
+(DISi = 1).,(DISi = 1).,
+,,
+FSNDISCA                  C       NUMBER OF ADULTS AGE 18 TO 49 WITHOUT,FSNDISCA,C       NUMBER OF ADULTS AGE 18 TO 49 WITHOUT
+DISABILITIES IN CHILDLESS UNITS,DISABILITIES I,N CHILDLESS UNITS
+We recommend using FSNDISCA with the understanding,We recommend u,sing FSNDISCA with the understanding
+that it likely overestimates the number of adults without,that it likely,overestimates the number of adults without
+disabilities. See Appendix A for details.,disabilities.,See Appendix A for details.
+"Range = (0, 6)","Range = (0, 6)",
+Number of adults age 18 to 49 without disabilities in childless,Number of adul,ts age 18 to 49 without disabilities in childless
+SNAP units.,SNAP units.,
+,,
+FSNELDER                  C       NUMBER OF ELDERLY INDIVIDUALS IN UNIT,FSNELDER,C       NUMBER OF ELDERLY INDIVIDUALS IN UNIT
+"Range = (0, 3)","Range = (0, 3)",
+Number of adults age 60 or older in SNAP unit.,Number of adul,ts age 60 or older in SNAP unit.
+,,
+FSNGMOM                   C       INDICATOR OF SINGLE-FEMALE-HEADED UNIT,FSNGMOM,C       INDICATOR OF SINGLE-FEMALE-HEADED UNIT
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+A SNAP unit with one adult and one or more children; the,A SNAP unit wi,th one adult and one or more children; the
+adult is female.,adult is femal,e.
+,,
+FSNK0T4                   C       NUMBER OF PRESCHOOL-AGE CHILDREN IN UNIT,FSNK0T4,C       NUMBER OF PRESCHOOL-AGE CHILDREN IN UNIT
+"Range = (0, 5)","Range = (0, 5)",
+Number of children under age 5 in SNAP unit.,Number of chil,dren under age 5 in SNAP unit.
+,,
+FSNK5T17                  C       NUMBER OF SCHOOL-AGE CHILDREN IN UNIT,FSNK5T17,C       NUMBER OF SCHOOL-AGE CHILDREN IN UNIT
+"Range = (0, 10)","Range = (0, 10",)
+Number of children age 5 to 17 in SNAP unit.,Number of chil,dren age 5 to 17 in SNAP unit.
+,,
+,,
+,,
+,,
+64,64,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Unit Demographics and Sample Weights,Unit Demograph,ics and Sample Weights
+FSNKID                    C       NUMBER OF CHILDREN IN UNIT,FSNKID,C       NUMBER OF CHILDREN IN UNIT
+"Range = (0, 12)","Range = (0, 12",)
+Number of children under age 18 in SNAP unit.,Number of chil,dren under age 18 in SNAP unit.
+,,
+FSNONCIT                  C       NUMBER OF NONCITIZENS IN UNIT,FSNONCIT,C       NUMBER OF NONCITIZENS IN UNIT
+"Range = (0, 9)","Range = (0, 9)",
+Number of people with FSAFILi = 1 and CTZNi >= 3.,Number of peop,le with FSAFILi = 1 and CTZNi >= 3.
+,,
+FSUSIZE                   C       CONSTRUCTED CERTIFIED UNIT SIZE,FSUSIZE,C       CONSTRUCTED CERTIFIED UNIT SIZE
+"Range = (1, 14)","Range = (1, 14",)
+Number of people with FSAFILi = 1.,Number of peop,le with FSAFILi = 1.
+,,
+FYWGT                     C       WEIGHT USED FOR FULL-YEAR CALCULATIONS,FYWGT,C       WEIGHT USED FOR FULL-YEAR CALCULATIONS
+"Range = (3.65, 4643.81)","Range = (3.65,",4643.81)
+Calculated as HWGT/12 for all States except for Rhode Island,Calculated as,HWGT/12 for all States except for Rhode Island
+and the Virgin Islands where defined as HWGT/9.,and the Virgin,Islands where defined as HWGT/9.
+,,
+HWGT                      C       MONTHLY SAMPLE WEIGHT,HWGT,C       MONTHLY SAMPLE WEIGHT
+"Range = (43.77, 55725.76)",Range = (43.77,", 55725.76)"
+Allows user to replicate total monthly caseloads as reflected in,Allows user to,replicate total monthly caseloads as reflected in
+SNAP Program Operations data. If the reference period for the,SNAP Program O,perations data. If the reference period for the
+"analysis is longer than one calendar month, the weight field",analysis is lo,"nger than one calendar month, the weight field"
+must be divided by the number of months being analyzed to,must be divide,d by the number of months being analyzed to
+calculate an average monthly value for that reference period.,calculate an a,verage monthly value for that reference period.
+,,
+NONCIT_HEAD               C       UNIT HEAD CITIZENSHIP INDICATOR,NONCIT_HEAD,C       UNIT HEAD CITIZENSHIP INDICATOR
+"Range = (0, 2)","Range = (0, 2)",
+0 = Head of unit is a citizen,0 = Head of un,it is a citizen
+1 = Head of unit is a participating noncitizen,1 = Head of un,it is a participating noncitizen
+2 = Head of unit is a nonparticipating noncitizen,2 = Head of un,it is a nonparticipating noncitizen
+,,
+RAWHSIZE                  R       REPORTED NUMBER OF PEOPLE IN HOUSEHOLD,RAWHSIZE,R       REPORTED NUMBER OF PEOPLE IN HOUSEHOLD
+"Range = (1, 14)","Range = (1, 14",)
+,,
+REGION                    C       CONSTRUCTED CENSUS REGION CODE,REGION,C       CONSTRUCTED CENSUS REGION CODE
+"Range = (1, 4)","Range = (1, 4)",
+1 = Northeast,1 = Northeast,
+2 = Midwest,2 = Midwest,
+3 = South,3 = South,
+4 = West,4 = West,
+See Appendix E (Table E.3) for a list of States in each region.,See Appendix E,(Table E.3) for a list of States in each region.
+,,
+,,
+,,
+,,
+65,65,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Unit Demographics and Sample Weights,Unit Demograph,ics and Sample Weights
+REGIONCD                  R       FNS REGION CODE,REGIONCD,R       FNS REGION CODE
+"Range = (1, 7)","Range = (1, 7)",
+1 = Northeast,1 = Northeast,
+2 = Mid-Atlantic,2 = Mid-Atlant,ic
+3 = Southeast,3 = Southeast,
+4 = Midwest,4 = Midwest,
+5 = Southwest,5 = Southwest,
+6 = Mountain Plains,6 = Mountain P,lains
+7 = West,7 = West,
+See Appendix E (Table E.2) for a list of States in each region.,See Appendix E,(Table E.2) for a list of States in each region.
+,,
+STATE                     R       FIPS CODE FOR STATE OR TERRITORY,STATE,R       FIPS CODE FOR STATE OR TERRITORY
+"Range = (1, 78)","Range = (1, 78",)
+See Appendix E (Table E.1) for FIPS code list.,See Appendix E,(Table E.1) for FIPS code list.
+,,
+STATENAME                 C       STATE OR TERRITORY,STATENAME,C       STATE OR TERRITORY
+State or territory name. See Appendix E (Table E.1) for list.,State or terri,tory name. See Appendix E (Table E.1) for list.
+,,
+STRATUM                   R       STRATUM IDENTIFICATION,STRATUM,R       STRATUM IDENTIFICATION
+"Range = (0, 0)","Range = (0, 0)",
+Codes for distinct parts of States with stratified samples; codes,Codes for dist,inct parts of States with stratified samples; codes
+in States that are not stratified are recoded to 0.,in States that,are not stratified are recoded to 0.
+,,
+TANF_IND                  C       INDICATOR OF TANF RECEIPT FOR UNIT,TANF_IND,C       INDICATOR OF TANF RECEIPT FOR UNIT
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+TANF_IND = 1 if FSTANF > 0 or MN_FIP = 1,TANF_IND = 1 i,f FSTANF > 0 or MN_FIP = 1
+,,
+TPOV                      C       GROSS INCOME/POVERTY LEVEL RATIO,TPOV,C       GROSS INCOME/POVERTY LEVEL RATIO
+"Range = (0, 1169)","Range = (0, 11",69)
+"TPOV = FSGRINC/NETSCRN*100, rounded to nearest",TPOV = FSGRINC,"/NETSCRN*100, rounded to nearest"
+"integer. If FSGRINC = 0, then TPOV = 0. Otherwise if TPOV",integer. If FS,"GRINC = 0, then TPOV = 0. Otherwise if TPOV"
+"rounds to 0, TPOV is set to 1.","rounds to 0, T",POV is set to 1.
+,,
+,,
+,,
+,,
+66,66,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                             Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                             Detailed Codebook
+Unit Demographics and Sample Weights,Unit Demograph,ics and Sample Weights
+URBRUR                    C       URBAN/RURAL INDICATOR (not retained on public use,URBRUR,C       URBAN/RURAL INDICATOR (not retained on public use
+file),file),
+We recommend caution when using URBRUR for any,We recommend c,aution when using URBRUR for any
+State-level tabulations because of concerns about the,State-level ta,bulations because of concerns about the
+representativeness of the sample at the substate level. We,representative,ness of the sample at the substate level. We
+recommend against the use of URBRUR for State-level,recommend agai,nst the use of URBRUR for State-level
+"tabulations in Alabama, Nebraska, Nevada, New",tabulations in,"Alabama, Nebraska, Nevada, New"
+"Hampshire, Oklahoma, Utah, Vermont, and Washington","Hampshire, Okl","ahoma, Utah, Vermont, and Washington"
+because of the number of cases with unknown locality. See,because of the,number of cases with unknown locality. See
+Appendix A for details.,Appendix A for,details.
+"Range = (1, 3)","Range = (1, 3)",
+Location of agency at which unit’s SNAP application was,Location of ag,ency at which unit’s SNAP application was
+processed.,processed.,
+"1 = Metropolitan (at least one urbanized area of 50,000 or more",1 = Metropolit,"an (at least one urbanized area of 50,000 or more"
+population and adjacent territory with a high degree of,population and,adjacent territory with a high degree of
+social and economic integration with the core as measured,social and eco,nomic integration with the core as measured
+by commuting ties),by commuting t,ies)
+"2 = Micropolitan (at least one urban cluster of at least 10,000",2 = Micropolit,"an (at least one urban cluster of at least 10,000"
+"but fewer than 50,000 people and adjacent territory with a",but fewer than,"50,000 people and adjacent territory with a"
+high degree of social and economic integration with the,high degree of,social and economic integration with the
+core as measured by commuting ties),core as measur,ed by commuting ties)
+3 = Rural (not metropolitan or micropolitan),3 = Rural (not,metropolitan or micropolitan)
+,,
+WRK_POOR                  C       INDICATOR OF WORKING POOR UNIT,WRK_POOR,C       INDICATOR OF WORKING POOR UNIT
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+All SNAP units with countable earnings (FSEARN) or,All SNAP units,with countable earnings (FSEARN) or
+multiple indicators of earnings in the unedited SNAP QC file.,multiple indic,ators of earnings in the unedited SNAP QC file.
+,,
+,,
+,,
+,,
+67,67,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE               MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE               MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                      Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                      Detailed Codebook
+Unit Countable Income,Unit Countable,Income
+Unit countable income (monthly dollar amounts),Unit countable,income (monthly dollar amounts)
+FSCONT                    C       COUNTABLE UNIT INCOME FROM CONTRIBUTIONS,FSCONT,C       COUNTABLE UNIT INCOME FROM CONTRIBUTIONS
+"Range = (0, 2500)","Range = (0, 25",00)
+Sum of CONT1 through CONT16,Sum of CONT1 t,hrough CONT16
+,,
+FSCSUPRT                  C       COUNTABLE UNIT CHILD SUPPORT PAYMENT,FSCSUPRT,C       COUNTABLE UNIT CHILD SUPPORT PAYMENT
+INCOME,INCOME,
+"Range = (0, 5046)","Range = (0, 50",46)
+Sum of CSUPRT1 through CSUPRT16,Sum of CSUPRT1,through CSUPRT16
+,,
+FSDEEM                    C       COUNTABLE UNIT DEEMED INCOME,FSDEEM,C       COUNTABLE UNIT DEEMED INCOME
+"Range = (0, 2078)","Range = (0, 20",78)
+Sum of DEEM1 through DEEM16,Sum of DEEM1 t,hrough DEEM16
+,,
+FSDIVER                   C       COUNTABLE UNIT STATE DIVERSION PAYMENTS,FSDIVER,C       COUNTABLE UNIT STATE DIVERSION PAYMENTS
+"Range = (0, 232)","Range = (0, 23",2)
+Sum of DIVER1 through DIVER16,Sum of DIVER1,through DIVER16
+,,
+FSEARN                    C       COUNTABLE UNIT EARNED INCOME,FSEARN,C       COUNTABLE UNIT EARNED INCOME
+"Range = (0, 9984)","Range = (0, 99",84)
+"Sum of FSWAGES, FSSLFEMP, and FSOTHERN",Sum of FSWAGES,", FSSLFEMP, and FSOTHERN"
+,,
+FSEDLOAN                  C       COUNTABLE UNIT INCOME FROM EDUCATIONAL,FSEDLOAN,C       COUNTABLE UNIT INCOME FROM EDUCATIONAL
+GRANTS AND LOANS,GRANTS AND LOA,NS
+"Range = (0, 888)","Range = (0, 88",8)
+Sum of EDLOAN1 through EDLOAN16,Sum of EDLOAN1,through EDLOAN16
+,,
+FSEITC                    C       COUNTABLE UNIT INCOME FROM EARNED INCOME,FSEITC,C       COUNTABLE UNIT INCOME FROM EARNED INCOME
+TAX CREDIT,TAX CREDIT,
+"Range = (0, 821)","Range = (0, 82",1)
+Sum of EITC1 through EITC16,Sum of EITC1 t,hrough EITC16
+,,
+FSENERGY                  C       COUNTABLE UNIT ENERGY ASSISTANCE INCOME,FSENERGY,C       COUNTABLE UNIT ENERGY ASSISTANCE INCOME
+"Range = (0, 815)","Range = (0, 81",5)
+Sum of ENERGY1 through ENERGY16,Sum of ENERGY1,through ENERGY16
+,,
+FSFOSTER                  C       CALCULATED FOSTER CARE RECEIPT,FSFOSTER,C       CALCULATED FOSTER CARE RECEIPT
+"Range = (0, 1302)","Range = (0, 13",02)
+Sum of FOSTER1 through FOSTER16,Sum of FOSTER1,through FOSTER16
+,,
+FSGA                      C       COUNTABLE UNIT GENERAL ASSISTANCE BENEFITS,FSGA,C       COUNTABLE UNIT GENERAL ASSISTANCE BENEFITS
+"Range = (0, 1546)","Range = (0, 15",46)
+Sum of GA1 through GA16,Sum of GA1 thr,ough GA16
+,,
+,,
+,,
+,,
+68,68,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Unit Countable Income,Unit Countable,Income
+FSGRINC                   C       FINAL GROSS COUNTABLE UNIT INCOME,FSGRINC,C       FINAL GROSS COUNTABLE UNIT INCOME
+"Range = (0, 11578)","Range = (0, 11",578)
+Total monthly gross income of unit (sum of FSEARN and,Total monthly,gross income of unit (sum of FSEARN and
+FSUNEARN),FSUNEARN),
+,,
+FSNETINC                  C       FINAL NET COUNTABLE UNIT INCOME,FSNETINC,C       FINAL NET COUNTABLE UNIT INCOME
+"Range = (0, 9425)","Range = (0, 94",25)
+Total monthly income of unit after applying deductions.,Total monthly,income of unit after applying deductions.
+Calculated as FSGRINC-FSTOTDED but not less than 0.,Calculated as,FSGRINC-FSTOTDED but not less than 0.
+Coded as missing for MFIP units and for SSI-CAP units in,Coded as missi,ng for MFIP units and for SSI-CAP units in
+States with standard SSI-CAP benefits.,States with st,andard SSI-CAP benefits.
+,,
+FSOTHERN                  C       COUNTABLE UNIT OTHER EARNED INCOME,FSOTHERN,C       COUNTABLE UNIT OTHER EARNED INCOME
+"Range = (0, 3190)","Range = (0, 31",90)
+Sum of OTHERN1 through OTHERN16,Sum of OTHERN1,through OTHERN16
+,,
+FSOTHGOV                  C       COUNTABLE UNIT INCOME FROM OTHER,FSOTHGOV,C       COUNTABLE UNIT INCOME FROM OTHER
+GOVERNMENT BENEFITS,GOVERNMENT BEN,EFITS
+"Range = (0, 2053)","Range = (0, 20",53)
+Sum of OTHGOV1 through OTHGOV16,Sum of OTHGOV1,through OTHGOV16
+,,
+FSOTHUN                   C       COUNTABLE UNIT OTHER UNEARNED INCOME,FSOTHUN,C       COUNTABLE UNIT OTHER UNEARNED INCOME
+"Range = (0, 2785)","Range = (0, 27",85)
+Sum of OTHUN1 through OTHUN16,Sum of OTHUN1,through OTHUN16
+,,
+FSSLFEMP                  C       COUNTABLE UNIT SELF-EMPLOYMENT INCOME,FSSLFEMP,C       COUNTABLE UNIT SELF-EMPLOYMENT INCOME
+"Range = (0, 4007)","Range = (0, 40",07)
+Sum of SLFEMP1 through SLFEMP16,Sum of SLFEMP1,through SLFEMP16
+,,
+FSSOCSEC                  C       COUNTABLE UNIT SOCIAL SECURITY INCOME,FSSOCSEC,C       COUNTABLE UNIT SOCIAL SECURITY INCOME
+"Range = (0, 3417)","Range = (0, 34",17)
+Sum of SOCSEC1 through SOCSEC16,Sum of SOCSEC1,through SOCSEC16
+,,
+FSSSI                     C       COUNTABLE UNIT SSI BENEFITS,FSSSI,C       COUNTABLE UNIT SSI BENEFITS
+"Range = (0, 2859)","Range = (0, 28",59)
+Sum of SSI1 through SSI16,Sum of SSI1 th,rough SSI16
+,,
+FSTANF                    C       COUNTABLE UNIT TANF PAYMENTS,FSTANF,C       COUNTABLE UNIT TANF PAYMENTS
+We recommend against using FSTANF in Minnesota,We recommend a,gainst using FSTANF in Minnesota
+because TANF income is not used in the SNAP benefit,because TANF i,ncome is not used in the SNAP benefit
+calculation for MFIP units. We recommend using FSTANF,calculation fo,r MFIP units. We recommend using FSTANF
+in California with the understanding that the number of,in California,with the understanding that the number of
+pure PA units may be overestimated. See Appendix A for,pure PA units,may be overestimated. See Appendix A for
+more details.,more details.,
+"Range = (0, 1731)","Range = (0, 17",31)
+Sum of TANF1 through TANF16,Sum of TANF1 t,hrough TANF16
+,,
+69,69,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Unit Countable Income,Unit Countable,Income
+FSUNEARN                  C       COUNTABLE UNIT UNEARNED INCOME,FSUNEARN,C       COUNTABLE UNIT UNEARNED INCOME
+"Range = (0, 5967)","Range = (0, 59",67)
+"Sum of FSCONT, FSCSUPRT, FSDEEM, FSEDLOAN,","Sum of FSCONT,","FSCSUPRT, FSDEEM, FSEDLOAN,"
+"FSGA, FSOTHGOV, FSOTHUN, FSSOCSC, FSSSI,","FSGA, FSOTHGOV",", FSOTHUN, FSSOCSC, FSSSI,"
+"FSTANF, FSUNEMP, FSVET, FSWCOMP, FSDIVER,","FSTANF, FSUNEM","P, FSVET, FSWCOMP, FSDIVER,"
+"FSENERGY, and FSWGESUP","FSENERGY, and",FSWGESUP
+,,
+FSUNEMP                   C       COUNTABLE UNIT UNEMPLOYMENT COMPENSATION,FSUNEMP,C       COUNTABLE UNIT UNEMPLOYMENT COMPENSATION
+BENEFITS,BENEFITS,
+"Range = (0, 2709)","Range = (0, 27",09)
+Sum of UNEMP1 through UNEMP16,Sum of UNEMP1,through UNEMP16
+,,
+FSVET                     C       COUNTABLE UNIT VETERANS’ BENEFITS,FSVET,C       COUNTABLE UNIT VETERANS’ BENEFITS
+"Range = (0, 2420)","Range = (0, 24",20)
+Sum of VET1 through VET16,Sum of VET1 th,rough VET16
+,,
+FSWAGES                   C       COUNTABLE UNIT WAGES AND SALARIES,FSWAGES,C       COUNTABLE UNIT WAGES AND SALARIES
+"Range = (0, 9984)","Range = (0, 99",84)
+Sum of WAGES1 through WAGES16,Sum of WAGES1,through WAGES16
+,,
+FSWCOMP                   C       COUNTABLE UNIT WORKERS’ COMPENSATION,FSWCOMP,C       COUNTABLE UNIT WORKERS’ COMPENSATION
+BENEFITS,BENEFITS,
+"Range = (0, 1827)","Range = (0, 18",27)
+Sum of WCOMP1 through WCOMP16,Sum of WCOMP1,through WCOMP16
+,,
+FSWGESUP                  C       COUNTABLE UNIT WAGE SUPPLEMENTATION,FSWGESUP,C       COUNTABLE UNIT WAGE SUPPLEMENTATION
+INCOME,INCOME,
+"Range = (0, 940)","Range = (0, 94",0)
+Sum of WGESUP1 through WGESUP16,Sum of WGESUP1,through WGESUP16
+,,
+RAWGROSS                  R       REPORTED GROSS COUNTABLE UNIT INCOME,RAWGROSS,R       REPORTED GROSS COUNTABLE UNIT INCOME
+"Range = (0, 11578)","Range = (0, 11",578)
+Reported total monthly countable income of unit before,Reported total,monthly countable income of unit before
+applying deductions (see FSGRINC for final value),applying deduc,tions (see FSGRINC for final value)
+,,
+RAWNET                    R       REPORTED NET COUNTABLE UNIT INCOME,RAWNET,R       REPORTED NET COUNTABLE UNIT INCOME
+"Range = (0, 9424)","Range = (0, 94",24)
+Reported total monthly countable income of unit after applying,Reported total,monthly countable income of unit after applying
+deductions (see FSNETINC for final value),deductions (se,e FSNETINC for final value)
+,,
+,,
+,,
+,,
+70,70,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                      MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                      MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                            Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                            Detailed Codebook
+Unit Countable Assets,Unit Countable,Assets
+Unit countable assets,Unit countable,assets
+FSASSET                   C       TOTAL COUNTABLE ASSETS UNDER STATE RULES,FSASSET,C       TOTAL COUNTABLE ASSETS UNDER STATE RULES
+We recommend using FSASSET with the understanding,We recommend u,sing FSASSET with the understanding
+that only 8 percent of SNAP units have countable assets.,that only 8 pe,rcent of SNAP units have countable assets.
+See Appendix A for more details.,See Appendix A,for more details.
+"Range = (0, 4908)","Range = (0, 49",08)
+"Sum of LIQRESOR, FSVEHAST, OTHNLRES, and",Sum of LIQRESO,"R, FSVEHAST, OTHNLRES, and"
+REALPROP,REALPROP,
+,,
+FSVEHAST                  C       COUNTABLE NON-EXCLUDED VEHICLES’ VALUE,FSVEHAST,C       COUNTABLE NON-EXCLUDED VEHICLES’ VALUE
+UNDER STATE RULES,UNDER STATE RU,LES
+We recommend using FSVEHAST with the understanding,We recommend u,sing FSVEHAST with the understanding
+that very few SNAP units have non-excluded vehicles. See,that very few,SNAP units have non-excluded vehicles. See
+Appendix A for more details.,Appendix A for,more details.
+"Range = (0, 4700)","Range = (0, 47",00)
+,,
+LIQRESOR                  C       COUNTABLE LIQUID ASSETS UNDER STATE RULES,LIQRESOR,C       COUNTABLE LIQUID ASSETS UNDER STATE RULES
+"Range = (0, 4908)","Range = (0, 49",08)
+,,
+OTHNLRES                  C       COUNTABLE OTHER NONLIQUID ASSETS UNDER,OTHNLRES,C       COUNTABLE OTHER NONLIQUID ASSETS UNDER
+STATE RULES,STATE RULES,
+"Range = (0, 2580)","Range = (0, 25",80)
+,,
+RAWLQRES                  R       REPORTED LIQUID ASSETS,RAWLQRES,R       REPORTED LIQUID ASSETS
+"Range = (0, 74300)","Range = (0, 74",300)
+,,
+RAWOTRES                  R       REPORTED OTHER NONLIQUID ASSETS,RAWOTRES,R       REPORTED OTHER NONLIQUID ASSETS
+"Range = (0, 2580)","Range = (0, 25",80)
+,,
+RAWRPROP                  R       REPORTED REAL PROPERTY,RAWRPROP,R       REPORTED REAL PROPERTY
+"Range = (0, 50000)","Range = (0, 50",000)
+Does not include home,Does not inclu,de home
+,,
+RAWVHAST                  R       REPORTED NONEXCLUDED VEHICLES’ VALUE,RAWVHAST,R       REPORTED NONEXCLUDED VEHICLES’ VALUE
+"Range = (0, 4700)","Range = (0, 47",00)
+,,
+REALPROP                  C       COUNTABLE REAL PROPERTY UNDER STATE RULES,REALPROP,C       COUNTABLE REAL PROPERTY UNDER STATE RULES
+"Range = (0, 1850)","Range = (0, 18",50)
+Does not include home,Does not inclu,de home
+,,
+,,
+,,
+,,
+71,71,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Unit Countable Assets,Unit Countable,Assets
+VEHICLEA                  R       REPORTED CATEGORY FOR FIRST VEHICLE,VEHICLEA,R       REPORTED CATEGORY FOR FIRST VEHICLE
+We recommend against the use of VEHICLEA. See,We recommend a,gainst the use of VEHICLEA. See
+Appendix A for more details.,Appendix A for,more details.
+"Range = (1, 8)","Range = (1, 8)",
+1 = No vehicle,1 = No vehicle,
+"2 = Vehicle exempt because used for producing income, as a",2 = Vehicle ex,"empt because used for producing income, as a"
+"home, to transport a physically disabled member, for long-","home, to trans","port a physically disabled member, for long-"
+"distance travel (other than commuting), or to carry fuel or",distance trave,"l (other than commuting), or to carry fuel or"
+water,water,
+3 = Vehicle exempt because inaccessible resource (equity value,3 = Vehicle ex,empt because inaccessible resource (equity value
+"$1,500 or less)","$1,500 or less",)
+4 = Vehicle exempt due to categorical eligibility,4 = Vehicle ex,empt due to categorical eligibility
+5 = Vehicle excluded under State TANF standard (vehicle of,5 = Vehicle ex,cluded under State TANF standard (vehicle of
+non-categorically eligible unit members only),non-categorica,lly eligible unit members only)
+6 = Vehicle registered and attributable to an adult unit member,6 = Vehicle re,gistered and attributable to an adult unit member
+or used by a person under age 18 for employment or,or used by a p,erson under age 18 for employment or
+education (subject to fair market value only),education (sub,ject to fair market value only)
+7 = Vehicle not registered (equity test only),7 = Vehicle no,t registered (equity test only)
+8 = Vehicle not excluded and not included in code 6 (subject to,8 = Vehicle no,t excluded and not included in code 6 (subject to
+"fair market value or equity test, whichever is greater)",fair market va,"lue or equity test, whichever is greater)"
+,,
+VEHICLEB                  R       REPORTED CATEGORY FOR SECOND VEHICLE,VEHICLEB,R       REPORTED CATEGORY FOR SECOND VEHICLE
+We recommend against the use of VEHICLEB. See,We recommend a,gainst the use of VEHICLEB. See
+Appendix A for more details.,Appendix A for,more details.
+"Range = (1, 8)","Range = (1, 8)",
+1 = No vehicle,1 = No vehicle,
+"2 = Vehicle exempt because used for producing income, as a",2 = Vehicle ex,"empt because used for producing income, as a"
+"home, to transport a physically disabled member, for long-","home, to trans","port a physically disabled member, for long-"
+"distance travel (other than commuting), or to carry fuel or",distance trave,"l (other than commuting), or to carry fuel or"
+water,water,
+3 = Vehicle exempt because inaccessible resource (equity value,3 = Vehicle ex,empt because inaccessible resource (equity value
+"$1,500 or less)","$1,500 or less",)
+4 = Vehicle exempt due to categorical eligibility,4 = Vehicle ex,empt due to categorical eligibility
+5 = Vehicle excluded under State TANF standard (vehicle of,5 = Vehicle ex,cluded under State TANF standard (vehicle of
+non-categorically eligible unit members only),non-categorica,lly eligible unit members only)
+6 = Vehicle registered and attributable to an adult unit member,6 = Vehicle re,gistered and attributable to an adult unit member
+or used by a person under age 18 for employment or,or used by a p,erson under age 18 for employment or
+education (subject to fair market value only),education (sub,ject to fair market value only)
+7 = Vehicle not registered (equity test only),7 = Vehicle no,t registered (equity test only)
+8 = Vehicle not excluded and not included in code 6 (subject to,8 = Vehicle no,t excluded and not included in code 6 (subject to
+"fair market value or equity test, whichever is greater)",fair market va,"lue or equity test, whichever is greater)"
+,,
+,,
+,,
+,,
+72,72,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                 Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                 Detailed Codebook
+Unit Expenses and Deductions,Unit Expenses,and Deductions
+,,
+Unit expenses and deductions,Unit expenses,and deductions
+ERN_INC_DED_PCT           C       PERCENTAGE USED TO CALCULATE EARNINGS,ERN_INC_DED_PC,T           C       PERCENTAGE USED TO CALCULATE EARNINGS
+DEDUCTION,DEDUCTION,
+"Range = (0.20, 0.50)","Range = (0.20,",0.50)
+0.50 for MFIP participants; 0.20 for all other SNAP participants.,0.50 for MFIP,participants; 0.20 for all other SNAP participants.
+,,
+EXCL_FSCSDED              C       CHILD SUPPORT EXCLUDED FROM GROSS INCOME,EXCL_FSCSDED,C       CHILD SUPPORT EXCLUDED FROM GROSS INCOME
+"Range = (0, 1173)","Range = (0, 11",73)
+Child support expenses excluded before gross income test rather,Child support,expenses excluded before gross income test rather
+than before net income test for eligibility,than before ne,t income test for eligibility
+,,
+FSCSDED                   C       CHILD SUPPORT PAYMENT DEDUCTION,FSCSDED,C       CHILD SUPPORT PAYMENT DEDUCTION
+"Range = (0, 1204)","Range = (0, 12",04)
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States using standard SSI-CAP benefits,SSI-CAP progra,m in States using standard SSI-CAP benefits
+,,
+FSCSEXP                   R       REPORTED CHILD SUPPORT PAYMENT DEDUCTION,FSCSEXP,R       REPORTED CHILD SUPPORT PAYMENT DEDUCTION
+"Range = (0, 1204)","Range = (0, 12",04)
+(Some States treat child support payments to non-unit members as,(Some States t,reat child support payments to non-unit members as
+an income exclusion rather than a deduction. See,an income excl,usion rather than a deduction. See
+EXCL_FSCSDED and FSCSDED for final values.),EXCL_FSCSDED a,nd FSCSDED for final values.)
+,,
+FSDEPDED                  R       REPORTED DEPENDENT CARE DEDUCTION,FSDEPDED,R       REPORTED DEPENDENT CARE DEDUCTION
+We recommend against using FSDEPDED for State-level,We recommend a,gainst using FSDEPDED for State-level
+tabulations due to small sample sizes and inconsistencies,tabulations du,e to small sample sizes and inconsistencies
+between DPCOSTi and FSDEPDED. See Appendix A for,between DPCOST,i and FSDEPDED. See Appendix A for
+more details.,more details.,
+"Range = (0, 2580)","Range = (0, 25",80)
+Some values have been edited to obtain consistency with,Some values ha,ve been edited to obtain consistency with
+DPCOST1 to DPCOST16 and to improve the final benefit,DPCOST1 to DPC,OST16 and to improve the final benefit
+calculation. See Appendix B for details. Coded as missing for all,calculation. S,ee Appendix B for details. Coded as missing for all
+MFIP and SSI-CAP units.,MFIP and SSI-C,AP units.
+,,
+,,
+,,
+,,
+73,73,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                                      MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                                      MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE                 ORIGIN         DESCRIPTION                                       Detailed Codebook,VARIABLE,ORIGIN         DESCRIPTION                                       Detailed Codebook
+Unit Expenses and Deductions,Unit Expenses,and Deductions
+,,
+FSDEPDE2                       C        MARGINAL EFFECTIVENESS OF DEPENDENT CARE,FSDEPDE2,C        MARGINAL EFFECTIVENESS OF DEPENDENT CARE
+DEDUCTION 37,DEDUCTION 37,
+"Range = (0, 2342)","Range = (0, 23",42)
+"Calculated as FSDEPDE2 = NEWNET-FSNETINC, where",Calculated as,"FSDEPDE2 = NEWNET-FSNETINC, where"
+"NEWNET = MAX (0, FSGRINC-FSSLT3-FSERNDED-",NEWNET = MAX (,"0, FSGRINC-FSSLT3-FSERNDED-"
+FSMEDDED-FSSTDDED-FSCSDED-,FSMEDDED-FSSTD,DED-FSCSDED-
+HOMELESS_DED),HOMELESS_DED),
+and where FSSLT3 is the shelter deduction calculated without,and where FSSL,T3 is the shelter deduction calculated without
+FSDEPDED. Coded as missing for all MFIP and SSI-CAP units.,FSDEPDED. Code,d as missing for all MFIP and SSI-CAP units.
+FSERNDED                       C        CALCULATED EARNED INCOME DEDUCTION,FSERNDED,C        CALCULATED EARNED INCOME DEDUCTION
+"Range = (0, 1996)","Range = (0, 19",96)
+"Calculated as FSERNDED = ERN_INC_DED_PCT*FSEARN,",Calculated as,"FSERNDED = ERN_INC_DED_PCT*FSEARN,"
+rounded to nearest integer. The deduction equals 50 percent of,rounded to nea,rest integer. The deduction equals 50 percent of
+total earned income for MFIP participants and 20 percent of total,total earned i,ncome for MFIP participants and 20 percent of total
+earned income for all others. Coded as missing for all SSI-CAP,earned income,for all others. Coded as missing for all SSI-CAP
+units.,units.,
+,,
+FSERNDE2                       C        MARGINAL EFFECTIVENESS OF EARNED INCOME,FSERNDE2,C        MARGINAL EFFECTIVENESS OF EARNED INCOME
+DEDUCTION,DEDUCTION,
+"Range = (0, 1996)","Range = (0, 19",96)
+"Calculated as FSERNDE2 = NEWNET-FSNETINC, where",Calculated as,"FSERNDE2 = NEWNET-FSNETINC, where"
+"NEWNET = MAX (0, FSGRINC-FSSLT2-FSDEPDED-",NEWNET = MAX (,"0, FSGRINC-FSSLT2-FSDEPDED-"
+FSMEDDED-FSSTDDED-FSCSDED-,FSMEDDED-FSSTD,DED-FSCSDED-
+HOMELESS_DED),HOMELESS_DED),
+and where FSSLT2 is the shelter deduction calculated without,and where FSSL,T2 is the shelter deduction calculated without
+FSERNDED. Coded as missing for all MFIP and SSI-CAP units.,FSERNDED. Code,d as missing for all MFIP and SSI-CAP units.
+,,
+FSMEDDED                       C        CALCULATED MEDICAL EXPENSE DEDUCTION,FSMEDDED,C        CALCULATED MEDICAL EXPENSE DEDUCTION
+"Range = (0, 4198)","Range = (0, 41",98)
+The deduction is for units with elderly members or individuals,The deduction,is for units with elderly members or individuals
+with disabilities only; the entry for medical expenses should,with disabilit,ies only; the entry for medical expenses should
+include only expenses in excess of $35.,include only e,xpenses in excess of $35.
+"Calculated as FSMEDDED = MAX(0, FSMEDEXP)",Calculated as,"FSMEDDED = MAX(0, FSMEDEXP)"
+Coded as missing for all MFIP and SSI-CAP units.,Coded as missi,ng for all MFIP and SSI-CAP units.
+,,
+,,
+,,
+,,
+37,37,
+The marginal effectiveness variables are calculated as the difference between the actual calculated net income and,The marginal e,ffectiveness variables are calculated as the difference between the actual calculated net income and
+what the net income would have been without the deduction. Given that the combined value of deductions to which a,what the net i,ncome would have been without the deduction. Given that the combined value of deductions to which a
+"unit is entitled sometimes exceeds the gross income received by the unit, the marginal effectiveness variables give a",unit is entitl,"ed sometimes exceeds the gross income received by the unit, the marginal effectiveness variables give a"
+more accurate picture of the impact of the deductions.,more accurate,picture of the impact of the deductions.
+,,
+,,
+74,74,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Unit Expenses and Deductions,Unit Expenses,and Deductions
+,,
+FSMEDDE2                  C       MARGINAL EFFECTIVENESS OF MEDICAL EXPENSE,FSMEDDE2,C       MARGINAL EFFECTIVENESS OF MEDICAL EXPENSE
+DEDUCTION,DEDUCTION,
+"Range = (0, 2139)","Range = (0, 21",39)
+"Calculated as FSMEDDE2 = NEWNET-FSNETINC, where",Calculated as,"FSMEDDE2 = NEWNET-FSNETINC, where"
+"NEWNET = MAX (0, FSGRINC-FSSLT4-FSDEPDED-",NEWNET = MAX (,"0, FSGRINC-FSSLT4-FSDEPDED-"
+FSERNDED-FSSTDDED-FSCSDED-,FSERNDED-FSSTD,DED-FSCSDED-
+HOMELESS_DED),HOMELESS_DED),
+and where FSSLT4 is the shelter deduction calculated without,and where FSSL,T4 is the shelter deduction calculated without
+FSM EDDED. Coded as missing for all MFIP and SSI-CAP units.,FSM EDDED. Cod,ed as missing for all MFIP and SSI-CAP units.
+,,
+FSMEDEXP                  R       REPORTED MEDICAL EXPENSES,FSMEDEXP,R       REPORTED MEDICAL EXPENSES
+"Range = (0, 4198)","Range = (0, 41",98)
+Allowable medical expenses in excess of $35 for elderly adults or,Allowable medi,cal expenses in excess of $35 for elderly adults or
+individuals with disabilities.,individuals wi,th disabilities.
+,,
+FSSLTDED                  C       CALCULATED EXCESS SHELTER EXPENSE DEDUCTION,FSSLTDED,C       CALCULATED EXCESS SHELTER EXPENSE DEDUCTION
+"Range = (0, 3072)","Range = (0, 30",72)
+Set to 0 if HOMEDED = 3; otherwise set to XCOST for units,Set to 0 if HO,MEDED = 3; otherwise set to XCOST for units
+with elderly members or individuals with disabilities and equal to,with elderly m,embers or individuals with disabilities and equal to
+the minimum of XCOST and SHELCAP for units without elderly,the minimum of,XCOST and SHELCAP for units without elderly
+"members or individuals with disabilities, where",members or ind,"ividuals with disabilities, where"
+"XCOST = MAX(0, FSSLTEXP-HALFNET) and HALFNET =","XCOST = MAX(0,",FSSLTEXP-HALFNET) and HALFNET =
+"MAX (0,ROUND(FSGRINC-FSSTDDED-","MAX (0,ROUND(F",SGRINC-FSSTDDED-
+FSERNDED-FSDEPDED-FSMEDDED-,FSERNDED-FSDEP,DED-FSMEDDED-
+FSCSDED)/2),FSCSDED)/2),
+The final value of FSSLTDED is rounded to nearest integer.,The final valu,e of FSSLTDED is rounded to nearest integer.
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States that use standard SSI-CAP benefits.,SSI-CAP progra,m in States that use standard SSI-CAP benefits.
+,,
+FSSLTDE2                  C       MARGINAL EFFECTIVENESS OF EXCESS SHELTER,FSSLTDE2,C       MARGINAL EFFECTIVENESS OF EXCESS SHELTER
+EXPENSE DEDUCTION,EXPENSE DEDUCT,ION
+"Range = (0, 2560)","Range = (0, 25",60)
+"Calculated as FSSLTDE2 = NEWNET-FSNETINC, where",Calculated as,"FSSLTDE2 = NEWNET-FSNETINC, where"
+"NEWNET = MAX (0,FSGRINC-FSDEPDED-FSERNDED-",NEWNET = MAX (,"0,FSGRINC-FSDEPDED-FSERNDED-"
+FSMEDDED-FSSTDDED-FSCSDED-,FSMEDDED-FSSTD,DED-FSCSDED-
+HOMELESS_DED).,HOMELESS_DED).,
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States that use standard SSI-CAP benefits.,SSI-CAP progra,m in States that use standard SSI-CAP benefits.
+,,
+FSSLTEXP                  C       CALCULATED SHELTER EXPENSES,FSSLTEXP,C       CALCULATED SHELTER EXPENSES
+"Range = (0, 4250)","Range = (0, 42",50)
+Sum of RENT and UTIL,Sum of RENT an,d UTIL
+,,
+,,
+,,
+,,
+75,75,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Unit Expenses and Deductions,Unit Expenses,and Deductions
+,,
+FSSTDDED                  C       STANDARD DEDUCTION,FSSTDDED,C       STANDARD DEDUCTION
+"Range = (138, 451)","Range = (138,",451)
+Varies by region. See Appendix F for values.,Varies by regi,on. See Appendix F for values.
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States that use standard SSI-CAP benefits.,SSI-CAP progra,m in States that use standard SSI-CAP benefits.
+,,
+FSSTDDE2                  C       MARGINAL EFFECTIVENESS OF STANDARD DEDUCTION,FSSTDDE2,C       MARGINAL EFFECTIVENESS OF STANDARD DEDUCTION
+"Range = (0, 677)","Range = (0, 67",7)
+"Calculated as FSSTDDE2 = NEWNET – FSNETINC, where",Calculated as,"FSSTDDE2 = NEWNET – FSNETINC, where"
+"NEWNET = MAX (0, FSGRINC – FSSLT1 – FSDEPDED –",NEWNET = MAX (,"0, FSGRINC – FSSLT1 – FSDEPDED –"
+FSERNDED – FSMEDDED – FSCSDED – HOMELESS_DED),FSERNDED – F,SMEDDED – FSCSDED – HOMELESS_DED)
+and where FSSLT1 is the shelter deduction calculated without,and where FSSL,T1 is the shelter deduction calculated without
+FSSTDDED.,FSSTDDED.,
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States that use standard SSI-CAP benefits.,SSI-CAP progra,m in States that use standard SSI-CAP benefits.
+,,
+FSTOTDED                  C       TOTAL DEDUCTIONS,FSTOTDED,C       TOTAL DEDUCTIONS
+"Range = (0, 5213)","Range = (0, 52",13)
+"Sum of FSSTDDED, FSERNDED, FSDEPDED, FSSLTDED,",Sum of FSSTDDE,"D, FSERNDED, FSDEPDED, FSSLTDED,"
+"FSMEDDED, HOMELESS_DED, and FSCSDED.","FSMEDDED, HOME","LESS_DED, and FSCSDED."
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States that use standard SSI-CAP benefits.,SSI-CAP progra,m in States that use standard SSI-CAP benefits.
+,,
+FSTOTDE2                  C       MARGINAL EFFECTIVENESS OF TOTAL DEDUCTION,FSTOTDE2,C       MARGINAL EFFECTIVENESS OF TOTAL DEDUCTION
+"Range = (0, 4313)","Range = (0, 43",13)
+Calculated as FSGRINC-FSNETINC.,Calculated as,FSGRINC-FSNETINC.
+Coded as missing for MFIP units and for units participating in an,Coded as missi,ng for MFIP units and for units participating in an
+SSI-CAP program in States that use standard SSI-CAP benefits.,SSI-CAP progra,m in States that use standard SSI-CAP benefits.
+,,
+HOMEDED                   R       INDICATOR OF HOMELESSNESS,HOMEDED,R       INDICATOR OF HOMELESSNESS
+"Range = (1, 3)","Range = (1, 3)",
+1 = Not homeless,1 = Not homele,ss
+"2 = Homeless, not receiving homeless shelter allowance","2 = Homeless,",not receiving homeless shelter allowance
+"3 = Homeless, receiving homeless shelter allowance","3 = Homeless,",receiving homeless shelter allowance
+,,
+HOMELESS_DED              C       AMOUNT OF HOMELESS HOUSEHOLD SHELTER,HOMELESS_DED,C       AMOUNT OF HOMELESS HOUSEHOLD SHELTER
+DEDUCTION,DEDUCTION,
+"Range = (0, 143)","Range = (0, 14",3)
+Positive value only for those with HOMEDED = 3,Positive value,only for those with HOMEDED = 3
+Coded as missing for all MFIP and SSI-CAP units.,Coded as missi,ng for all MFIP and SSI-CAP units.
+,,
+RAWERND                   R       REPORTED EARNED INCOME DEDUCTION,RAWERND,R       REPORTED EARNED INCOME DEDUCTION
+"Range = (0, 999)","Range = (0, 99",9)
+(See FSERNDED for final earned income deduction value.),(See FSERNDED,for final earned income deduction value.)
+,,
+,,
+76,76,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Unit Expenses and Deductions,Unit Expenses,and Deductions
+,,
+RENT                      R       RENT/MORTGAGE AMOUNT,RENT,R       RENT/MORTGAGE AMOUNT
+"Range = (0, 3854)","Range = (0, 38",54)
+Some values for SSI-CAP units have been edited to apply,Some values fo,r SSI-CAP units have been edited to apply
+standard shelter allowances.,standard shelt,er allowances.
+,,
+SHELCAP                   C       MAXIMUM ALLOWABLE SHELTER EXPENSE,SHELCAP,C       MAXIMUM ALLOWABLE SHELTER EXPENSE
+DEDUCTION,DEDUCTION,
+"Range = (408, 826)","Range = (408,",826)
+SHELCAP varies by region. See Appendix F for values.,SHELCAP varies,by region. See Appendix F for values.
+,,
+SHELDED                   R       REPORTED SHELTER DEDUCTION,SHELDED,R       REPORTED SHELTER DEDUCTION
+"Range = (0, 8844)","Range = (0, 88",44)
+(See FSSLTDED for the final value),(See FSSLTDED,for the final value)
+,,
+SUA1                      R       STANDARD UTILITY ALLOWANCE–USAGE AND,SUA1,R       STANDARD UTILITY ALLOWANCE–USAGE AND
+ENTITLEMENT,ENTITLEMENT,
+"Range = (1, 9)","Range = (1, 9)",
+1 = No utilities and no LIHEAA assistance,1 = No utiliti,es and no LIHEAA assistance
+2 = Uses actual expenses,2 = Uses actua,l expenses
+3 = Uses higher standard based on LIHEAA assistance,3 = Uses highe,r standard based on LIHEAA assistance
+4 = Uses higher standard and does not receive LIHEAA assistance,4 = Uses highe,r standard and does not receive LIHEAA assistance
+"5 = Uses lower, or limited, standard",5 = Uses lower,", or limited, standard"
+6 = Uses telephone-only standard,6 = Uses telep,hone-only standard
+7 = Uses individual standards,7 = Uses indiv,idual standards
+"8 = Uses higher standard, LIHEAA assistance status unknown",8 = Uses highe,"r standard, LIHEAA assistance status unknown"
+9 = Other,9 = Other,
+Some values have been edited to obtain consistency with UTIL.,Some values ha,ve been edited to obtain consistency with UTIL.
+See Appendix B for more details. Coded as missing for MFIP,See Appendix B,for more details. Coded as missing for MFIP
+units and for units participating in an SSI-CAP program in States,units and for,units participating in an SSI-CAP program in States
+that use standard SSI-CAP benefits.,that use stand,ard SSI-CAP benefits.
+LIHEAA is the Low Income Home Energy Assistance Act of,LIHEAA is the,Low Income Home Energy Assistance Act of
+"1981. Some State programs may have another name, such as",1981. Some Sta,"te programs may have another name, such as"
+Home Energy Assistance Program (HEAP).,Home Energy As,sistance Program (HEAP).
+Higher standard is an SUA based upon payment of heating or,Higher standar,d is an SUA based upon payment of heating or
+cooling and includes all utilities.,cooling and in,cludes all utilities.
+"Lower, or limited, standard is an SUA based upon all utilities","Lower, or limi","ted, standard is an SUA based upon all utilities"
+but is for households that do not incur heating or cooling or,but is for hou,seholds that do not incur heating or cooling or
+receive LIHEAA.,receive LIHEAA,.
+,,
+,,
+,,
+,,
+77,77,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Unit Expenses and Deductions,Unit Expenses,and Deductions
+,,
+SUA2                      R       STANDARD UTILITY ALLOWANCE–PRORATED,SUA2,R       STANDARD UTILITY ALLOWANCE–PRORATED
+"Range = (1, 2)","Range = (1, 2)",
+1 = Not prorated,1 = Not prorat,ed
+2 = Prorated,2 = Prorated,
+Some values have been edited to obtain consistency with UTIL.,Some values ha,ve been edited to obtain consistency with UTIL.
+See Appendix B for more details. Coded as missing for MFIP,See Appendix B,for more details. Coded as missing for MFIP
+units and for units participating in an SSI-CAP program in States,units and for,units participating in an SSI-CAP program in States
+that use standard SSI-CAP benefits.,that use stand,ard SSI-CAP benefits.
+,,
+UTIL                      R       UTILITY AMOUNT,UTIL,R       UTILITY AMOUNT
+"Range = (0, 1074)","Range = (0, 10",74)
+Some values have been edited to improve the final benefit,Some values ha,ve been edited to improve the final benefit
+calculation. See Appendix B for more details.,calculation. S,ee Appendix B for more details.
+,,
+,,
+,,
+,,
+78,78,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                 Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                 Detailed Codebook
+Unit Benefits,Unit Benefits,
+Unit benefits,Unit benefits,
+AMTERR                    R       AMOUNT OF BENEFIT IN ERROR,AMTERR,R       AMOUNT OF BENEFIT IN ERROR
+"Range = (0, 911)","Range = (0, 91",1)
+"Dollar amount of any identified error, or the difference",Dollar amount,"of any identified error, or the difference"
+between the benefits the State authorized and the benefits the,between the be,nefits the State authorized and the benefits the
+"State should have authorized. Before FY 2012, only errors over",State should h,"ave authorized. Before FY 2012, only errors over"
+$25 were recorded.,$25 were recor,ded.
+,,
+ASSLIM                    C       ASSET LIMIT,ASSLIM,C       ASSET LIMIT
+"Range = (2250, 5000)","Range = (2250,",5000)
+SNAP eligibility limit. Categorically eligible units are not,SNAP eligibili,ty limit. Categorically eligible units are not
+subject to an asset limit. See Appendix F.,subject to an,asset limit. See Appendix F.
+,,
+BENMAX                    C       MAXIMUM BENEFIT AMOUNT,BENMAX,C       MAXIMUM BENEFIT AMOUNT
+"Range = (194, 2798)","Range = (194,",2798)
+"The maximum possible benefit for a unit, which varies by unit",The maximum po,"ssible benefit for a unit, which varies by unit"
+size and region. See Appendix F for schedule.,size and regio,n. See Appendix F for schedule.
+,,
+FSASTEST                  C       INDICATOR OF PASSING ASSET TEST,FSASTEST,C       INDICATOR OF PASSING ASSET TEST
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+,,
+FSBEN                     C       FINAL CALCULATED BENEFIT,FSBEN,C       FINAL CALCULATED BENEFIT
+"Range = (1, 2761)","Range = (1, 27",61)
+"Calculated as FSBEN = MAX(minimum benefit,",Calculated as,"FSBEN = MAX(minimum benefit,"
+BENMAX-ROUND (.3*FSNETINC)) if FSUSIZE is 2 or,BENMAX-ROUND (,.3*FSNETINC)) if FSUSIZE is 2 or
+"Less. Otherwise, FSBEN = MAX (0, BENMAX-ROUND",Less. Otherwis,"e, FSBEN = MAX (0, BENMAX-ROUND"
+"(.3*FSNETINC)) for all units, except for MFIP units and for",(.3*FSNETINC)),"for all units, except for MFIP units and for"
+units participating in an SSI-CAP program in States that use,units particip,ating in an SSI-CAP program in States that use
+standard SSI-CAP benefits where the benefit is calculated by,standard SSI-C,AP benefits where the benefit is calculated by
+using a State-specific formula.,using a State-,specific formula.
+,,
+FSGRTEST                  C       INDICATOR OF PASSING GROSS INCOME TEST,FSGRTEST,C       INDICATOR OF PASSING GROSS INCOME TEST
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+,,
+,,
+,,
+,,
+79,79,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                 Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                 Detailed Codebook
+Unit Benefits,Unit Benefits,
+FSMINBEN                  C       RECEIVED MINIMUM BENEFIT,FSMINBEN,C       RECEIVED MINIMUM BENEFIT
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+FSMINBEN = 1 when FSBEN = 8 percent of the maximum,FSMINBEN = 1 w,hen FSBEN = 8 percent of the maximum
+one-person benefit for the unit’s geographic region and,one-person ben,efit for the unit’s geographic region and
+FSUSIZE = 1 or 2. FSMINBEN is always set to 0 for units,FSUSIZE = 1 or,2. FSMINBEN is always set to 0 for units
+participating in an SSI-CAP program in States that use,participating,in an SSI-CAP program in States that use
+standard SSI-CAP benefits.,standard SSI-C,AP benefits.
+,,
+FSNETEST                  C       INDICATOR OF PASSING NET INCOME TEST,FSNETEST,C       INDICATOR OF PASSING NET INCOME TEST
+"Range = (0, 1)","Range = (0, 1)",
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+Coded as missing for MFIP units and for units participating in,Coded as missi,ng for MFIP units and for units participating in
+an SSI-CAP program in States that use standard SSI-CAP,an SSI-CAP pro,gram in States that use standard SSI-CAP
+benefits.,benefits.,
+,,
+GROSSCRN                  C       GROSS INCOME SCREEN,GROSSCRN,C       GROSS INCOME SCREEN
+"Range = (1287, 7230)","Range = (1287,",7230)
+SNAP eligibility limit determined by unit size. Categorically,SNAP eligibili,ty limit determined by unit size. Categorically
+eligible units and those with elderly members or individuals,eligible units,and those with elderly members or individuals
+with disabilities are not subject to the gross income screen. See,with disabilit,ies are not subject to the gross income screen. See
+Appendix F for values.,Appendix F for,values.
+,,
+NETSCRN                   C       NET INCOME SCREEN,NETSCRN,C       NET INCOME SCREEN
+"Range = (990, 5562)","Range = (990,",5562)
+SNAP eligibility limit determined by unit size. Categorically,SNAP eligibili,ty limit determined by unit size. Categorically
+eligible units are not subject to the net income screen. See,eligible units,are not subject to the net income screen. See
+Appendix F for values.,Appendix F for,values.
+,,
+RAWBEN                    R       REPORTED SNAP BENEFIT RECEIVED,RAWBEN,R       REPORTED SNAP BENEFIT RECEIVED
+"Range = (0, 2761)","Range = (0, 27",61)
+Reported amount of SNAP benefits that the unit was certified,Reported amoun,t of SNAP benefits that the unit was certified
+to receive during the sample month (see FSBEN for final,to receive dur,ing the sample month (see FSBEN for final
+value),value),
+,,
+,,
+,,
+,,
+80,80,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                      MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                      MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                           Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                           Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+Person-level characteristics,Person-level c,haracteristics
+ABWDST1 to                R       ABAWD STATUS,ABWDST1 to,R       ABAWD STATUS
+ABWDST16                          We recommend caution when using ABWDSTi due to,ABWDST16,We recommend caution when using ABWDSTi due to
+inconsistencies between ABWDSTi and several,inconsistencie,s between ABWDSTi and several
+"employment variables (i.e., WRKREGi, EMPSTAi, and",employment var,"iables (i.e., WRKREGi, EMPSTAi, and"
+EMPSTBi). We specifically recommend against using,EMPSTBi). We s,pecifically recommend against using
+"ABWDSTi for State-level tabulations in Iowa, Maine,",ABWDSTi for St,"ate-level tabulations in Iowa, Maine,"
+"Nevada, New Hampshire, and North Dakota given the","Nevada, New Ha","mpshire, and North Dakota given the"
+small sample sizes. See Appendix A for more details.,small sample s,izes. See Appendix A for more details.
+"Range = (1, 6)","Range = (1, 6)",
+Person 1 through Person 16,Person 1 throu,gh Person 16
+1 = Not an able-bodied adult without dependents (ABAWD),1 = Not an abl,e-bodied adult without dependents (ABAWD)
+2 = ABAWD in a waived area,2 = ABAWD in a,waived area
+3 = Exempt based on 15 percent option,3 = Exempt bas,ed on 15 percent option
+4 = ABAWD meeting work requirements,4 = ABAWD meet,ing work requirements
+5 = ABAWD in 1st 3 months,5 = ABAWD in 1,st 3 months
+6 = ABAWD in 2nd 3 months,6 = ABAWD in 2,nd 3 months
+7 = ABAWD who has exhausted time-limited benefits,7 = ABAWD who,has exhausted time-limited benefits
+,,
+AGE1 to                   R       AGE,AGE1 to,R       AGE
+"AGE16                             Range = (0, 98)",AGE16,"Range = (0, 98)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+0 = Age less than 1 year,0 = Age less t,han 1 year
+1 to 97 = Age in years,1 to 97 = Age,in years
+98 = Age 98 years or older,98 = Age 98 ye,ars or older
+,,
+,,
+,,
+,,
+81,81,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+CTZN1 to                  R       CITIZENSHIP STATUS,CTZN1 to,R       CITIZENSHIP STATUS
+"CTZN16                            Range = (1, 10)",CTZN16,"Range = (1, 10)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+1 = US–born citizen,1 = US–born,citizen
+2 = Naturalized citizen,2 = Naturalize,d citizen
+"3 = Legal permanent resident with 40 quarters of work,",3 = Legal perm,"anent resident with 40 quarters of work,"
+"military service, five years legal U.S. residency,",military servi,"ce, five years legal U.S. residency,"
+"disability, or under age 18","disability, or",under age 18
+"5 = Person admitted as refugee, granted asylum, or given stay",5 = Person adm,"itted as refugee, granted asylum, or given stay"
+of deportation,of deportation,
+6 = Other eligible noncitizen,6 = Other elig,ible noncitizen
+7 = Noncitizen legally in U.S. who does not meet one of the,7 = Noncitizen,legally in U.S. who does not meet one of the
+above codes and is not receiving SNAP benefits but,above codes an,d is not receiving SNAP benefits but
+whose income and resources must be considered in,whose income a,nd resources must be considered in
+determining benefits,determining be,nefits
+"8 = Other ineligible legal noncitizen (for example, visitor,",8 = Other inel,"igible legal noncitizen (for example, visitor,"
+"tourist, student, diplomat)","tourist, stude","nt, diplomat)"
+9 = Undocumented noncitizen,9 = Undocument,ed noncitizen
+"10 = Noncitizen, status unknown",10 = Noncitize,"n, status unknown"
+,,
+DIS1 to                   C       PERSON-LEVEL DISABILITY INDICATOR,DIS1 to,C       PERSON-LEVEL DISABILITY INDICATOR
+DIS16                             We recommend using DISi with the understanding that it,DIS16,We recommend using DISi with the understanding that it
+likely underestimates the number of non-elderly,likely underes,timates the number of non-elderly
+individuals with disabilities. See Appendix A for more,individuals wi,th disabilities. See Appendix A for more
+details.,details.,
+"Range = (0, 1)","Range = (0, 1)",
+Person 1 through Person 16,Person 1 throu,gh Person 16
+0 = Not disabled,0 = Not disabl,ed
+1 = Disabled,1 = Disabled,
+Non-elderly individuals identified as disabled using receipt of,Non-elderly in,dividuals identified as disabled using receipt of
+"SSI or a combination of hours worked, work registration status,",SSI or a combi,"nation of hours worked, work registration status,"
+"receipt of Social Security, veterans’ benefits, or workers’",receipt of Soc,"ial Security, veterans’ benefits, or workers’"
+"compensation, and/or unit medical expense deduction. See","compensation,",and/or unit medical expense deduction. See
+Appendix B for details.,Appendix B for,details.
+,,
+,,
+,,
+,,
+82,82,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                            Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                            Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+DPCOST1 to                R       REPORTED DEPENDENT CARE COST,DPCOST1 to,R       REPORTED DEPENDENT CARE COST
+DPCOST16                          We recommend against using DPCOSTi for State-level,DPCOST16,We recommend against using DPCOSTi for State-level
+tabulations due to small sample sizes and inconsistencies,tabulations du,e to small sample sizes and inconsistencies
+between DPCOSTi and FSDEPDED. See Appendix A for,between DPCOST,i and FSDEPDED. See Appendix A for
+more details.,more details.,
+"Range = (0, 1222)","Range = (0, 12",22)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Some values have been edited to obtain consistency with,Some values ha,ve been edited to obtain consistency with
+FSDEPDED. See Appendix B for details.,FSDEPDED. See,Appendix B for details.
+,,
+EMPRG1 to                 R       SNAP EMPLOYMENT AND TRAINING PROGRAM,EMPRG1 to,R       SNAP EMPLOYMENT AND TRAINING PROGRAM
+EMPRG16                           STATUS,EMPRG16,STATUS
+"We recommend using EMPRGi, with the understanding",We recommend u,"sing EMPRGi, with the understanding"
+that this variable is best used in conjunction with other,that this vari,able is best used in conjunction with other
+work-related variables. See Appendix A for more details.,work-related v,ariables. See Appendix A for more details.
+"Range = (0, 9)","Range = (0, 9)",
+Person 1 through Person 16,Person 1 throu,gh Person 16
+0 = Not participating in E&T,0 = Not partic,ipating in E&T
+1 = Participating in non–SNAP E&T (such as TANF),1 = Participat,ing in non–SNAP E&T (such as TANF)
+2 = SNAP job search or job search training,2 = SNAP job s,earch or job search training
+3 = SNAP E&T workfare or work experience,3 = SNAP E&T w,orkfare or work experience
+4 = SNAP E&T work supplementation,4 = SNAP E&T w,ork supplementation
+5 = SNAP E&T education leading to high school diploma or,5 = SNAP E&T e,ducation leading to high school diploma or
+GED,GED,
+6 = SNAP E&T postsecondary education leading to degree or,6 = SNAP E&T p,ostsecondary education leading to degree or
+certificate,certificate,
+7 = SNAP E&T remedial education (including adult education,7 = SNAP E&T r,emedial education (including adult education
+and English lessons not leading to degree),and English le,ssons not leading to degree)
+8 = SNAP E&T vocational training,8 = SNAP E&T v,ocational training
+9 = Other,9 = Other,
+,,
+,,
+,,
+,,
+83,83,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                            Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                            Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+EMPSTA1 to                R       EMPLOYMENT STATUS–TYPE,EMPSTA1 to,R       EMPLOYMENT STATUS–TYPE
+"EMPSTA16                          Range = (1, 8)",EMPSTA16,"Range = (1, 8)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"We recommend using EMPSTAi, with the understanding",We recommend u,"sing EMPSTAi, with the understanding"
+that this variable is best used in conjunction with other,that this vari,able is best used in conjunction with other
+work-related variables. See Appendix A for more details.,work-related v,ariables. See Appendix A for more details.
+1 = Not in labor force and not looking for work,1 = Not in lab,or force and not looking for work
+2 = Unemployed and looking for work,2 = Unemployed,and looking for work
+3 = Active-duty military,3 = Active-dut,y military
+4 = Migrant farm labor,4 = Migrant fa,rm labor
+5 = Nonmigrant farm labor,5 = Nonmigrant,farm labor
+"6 = Self-employed, farming",6 = Self-emplo,"yed, farming"
+"7 = Self-employed, nonfarming",7 = Self-emplo,"yed, nonfarming"
+8 = Employed by other,8 = Employed b,y other
+,,
+EMPSTB1 to                R       EMPLOYMENT STATUS–AMOUNT,EMPSTB1 to,R       EMPLOYMENT STATUS–AMOUNT
+"EMPSTB16                          Range = (1, 5)",EMPSTB16,"Range = (1, 5)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"We recommend using EMPSTBi, with the understanding",We recommend u,"sing EMPSTBi, with the understanding"
+that this variable is best used in conjunction with other,that this vari,able is best used in conjunction with other
+work-related variables. See Appendix A for more details.,work-related v,ariables. See Appendix A for more details.
+1 = Not employed,1 = Not employ,ed
+2 = 1–19 hours/week,2 = 1–19 hou,rs/week
+3 = 20–29 hours/week,3 = 20–29 ho,urs/week
+4 = 30–39 hours/week,4 = 30–39 ho,urs/week
+5 = Full-time (40 hours or more),5 = Full-time,(40 hours or more)
+,,
+,,
+,,
+,,
+84,84,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                             Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                             Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+FSAFIL1 to                R       SNAP CASE AFFILIATION,FSAFIL1 to,R       SNAP CASE AFFILIATION
+"FSAFIL16                          Range = (1, 99)",FSAFIL16,"Range = (1, 99)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+We recommend against the use of FSAFILi for State-level,We recommend a,gainst the use of FSAFILi for State-level
+tabulations of nonparticipants in West Virginia and caution,tabulations of,nonparticipants in West Virginia and caution
+when using FSAFili for State-level tabulations of,when using FSA,Fili for State-level tabulations of
+nonparticipants in the District of Columbia. See Appendix,nonparticipant,s in the District of Columbia. See Appendix
+A for more details.,A for more det,ails.
+1 = Eligible member of SNAP case under review and,1 = Eligible m,ember of SNAP case under review and
+entitled to receive benefits,entitled to re,ceive benefits
+"2 = Eligible SNAP participant in another unit, not currently",2 = Eligible S,"NAP participant in another unit, not currently"
+under review (code added by Mathematica for use in,under review (,code added by Mathematica for use in
+certain SNAP-CAP units),certain SNAP-C,AP units)
+4 = Member is ineligible noncitizen and not participating in,4 = Member is,ineligible noncitizen and not participating in
+State-funded SNAP,State-funded S,NAP
+5 = Member not paying/cooperating with child support,5 = Member not,paying/cooperating with child support
+agency,agency,
+6 = Member is ineligible striker,6 = Member is,ineligible striker
+7 = Member is ineligible student,7 = Member is,ineligible student
+8 = Member disqualified for program violation,8 = Member dis,qualified for program violation
+9 = Member ineligible to participate due to disqualification or,9 = Member ine,ligible to participate due to disqualification or
+"failure to meet work requirements (work registration,",failure to mee,"t work requirements (work registration,"
+"E&T, acceptance of employment, employment status/job","E&T, acceptanc","e of employment, employment status/job"
+"availability, voluntary quit/reducing work effort,","availability,","voluntary quit/reducing work effort,"
+workfare/comparable workfare),workfare/compa,rable workfare)
+10 = ABAWD time limit exhausted and ABAWD ineligible to,10 = ABAWD tim,e limit exhausted and ABAWD ineligible to
+participate due to failure to meet ABAWD work,participate du,e to failure to meet ABAWD work
+"requirements, to work at least 20 hours per week, to","requirements,","to work at least 20 hours per week, to"
+participate in at least 20 hours per week in qualifying,participate in,at least 20 hours per week in qualifying
+"educational training activities, or to participate in",educational tr,"aining activities, or to participate in"
+workfare,workfare,
+11 = Fleeing felon or parole and probation violator,11 = Fleeing f,elon or parole and probation violator
+13 = Convicted drug felon,13 = Convicted,drug felon
+14 = Social Security Number disqualified,14 = Social Se,curity Number disqualified
+15 = SSI recipient in California,15 = SSI recip,ient in California
+16 = Prisoner in detention center,16 = Prisoner,in detention center
+17 = Foster care,17 = Foster ca,re
+18 = Member is ineligible noncitizen and participating in,18 = Member is,ineligible noncitizen and participating in
+State-funded SNAP,State-funded S,NAP
+19 = Individual in the home but not part of SNAP household,19 = Individua,l in the home but not part of SNAP household
+99 = Unknown,99 = Unknown,
+,,
+,,
+,,
+,,
+85,85,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+FSUN1 to                  C       POSITION OF HEAD OF SNAP UNIT,FSUN1 to,C       POSITION OF HEAD OF SNAP UNIT
+"FSUN16                            Range = (0, 8)",FSUN16,"Range = (0, 8)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Identifies the index position of the head of the SNAP unit. The,Identifies the,index position of the head of the SNAP unit. The
+"head is defined as the first person in unit with RELi = 1 or, if",head is define,"d as the first person in unit with RELi = 1 or, if"
+"no one in unit has RELi = 1, as the first adult in unit. If there",no one in unit,"has RELi = 1, as the first adult in unit. If there"
+"are no adults in unit, the oldest child is the head. FSUNi is the",are no adults,"in unit, the oldest child is the head. FSUNi is the"
+"same for everyone in unit. For example, if unit head is the",same for every,"one in unit. For example, if unit head is the"
+"second person in the household, FSUNi = 2 for everyone in",second person,"in the household, FSUNi = 2 for everyone in"
+unit. FSUNi = 0 for any individuals in household who are not,unit. FSUNi =,0 for any individuals in household who are not
+part of the SNAP unit.,part of the SN,AP unit.
+,,
+NDISCA1 to                C       ADULT AGE 18 TO 49 WITHOUT DISABILITIES IN,NDISCA1 to,C       ADULT AGE 18 TO 49 WITHOUT DISABILITIES IN
+NDISCA16                          CHILDLESS UNIT STATUS,NDISCA16,CHILDLESS UNIT STATUS
+We recommend using NDISCAi with the understanding,We recommend u,sing NDISCAi with the understanding
+that it likely overestimates the number of adults without,that it likely,overestimates the number of adults without
+disabilities. See Appendix A for details.,disabilities.,See Appendix A for details.
+"Range = (0, 2)","Range = (0, 2)",
+Person 1 through Person 16,Person 1 throu,gh Person 16
+0 = Not in universe (AGEi<18 or AGEi>49),0 = Not in uni,verse (AGEi<18 or AGEi>49)
+1 = Adult age 18 to 49 without disabilities in childless unit,1 = Adult age,18 to 49 without disabilities in childless unit
+"2 = Age 18 to 49, but not adult without disabilities in",2 = Age 18 to,"49, but not adult without disabilities in"
+childless unit,childless unit,
+,,
+,,
+,,
+,,
+86,86,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                             Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                             Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+RACETH1 to                R       RACE/ETHNICITY,RACETH1 to,R       RACE/ETHNICITY
+"RACETH16                          Range = (1, 22)",RACETH16,"Range = (1, 22)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+We recommend against using RACETHi. See Appendix A,We recommend a,gainst using RACETHi. See Appendix A
+for more details.,for more detai,ls.
+1 = Racial/ethnic data not available because application was,1 = Racial/eth,nic data not available because application was
+not found,not found,
+2 = Not recorded on application,2 = Not record,ed on application
+Not Hispanic or Latino,Not Hispanic o,r Latino
+3 = American Indian or Alaska Native,3 = American I,ndian or Alaska Native
+4 = Asian,4 = Asian,
+5 = Black or African American,5 = Black or A,frican American
+6 = Native Hawaiian or other Pacific Islander,6 = Native Haw,aiian or other Pacific Islander
+7 = White,7 = White,
+Multiple Races Reported,Multiple Races,Reported
+8 = (American Indian or Alaska Native) and white,8 = (American,Indian or Alaska Native) and white
+9 = Asian and white,9 = Asian and,white
+10 = (Black or African American) and white,10 = (Black or,African American) and white
+11 = (American Indian or Alaska Native) and (black or,11 = (American,Indian or Alaska Native) and (black or
+African American),African Americ,an)
+12 = Respondent reported more than one race and does not fit,12 = Responden,t reported more than one race and does not fit
+into above categories (codes 8 through 11),into above cat,egories (codes 8 through 11)
+Hispanic or Latino,Hispanic or La,tino
+13 = (Hispanic or Latino) and (American Indian or Alaska,13 = (Hispanic,or Latino) and (American Indian or Alaska
+Native),Native),
+14 = (Hispanic or Latino) and Asian,14 = (Hispanic,or Latino) and Asian
+15 = (Hispanic or Latino) and (black or African American),15 = (Hispanic,or Latino) and (black or African American)
+16 = (Hispanic or Latino) and (Native Hawaiian or other,16 = (Hispanic,or Latino) and (Native Hawaiian or other
+Pacific Islander),Pacific Island,er)
+17 = (Hispanic or Latino) and white,17 = (Hispanic,or Latino) and white
+Multiple Races Reported,Multiple Races,Reported
+18 = (Hispanic or Latino) and (American Indian or Alaska,18 = (Hispanic,or Latino) and (American Indian or Alaska
+Native) and white,Native) and wh,ite
+19 = (Hispanic or Latino) and Asian and white,19 = (Hispanic,or Latino) and Asian and white
+20 = (Hispanic or Latino) and (black or African American) and,20 = (Hispanic,or Latino) and (black or African American) and
+white,white,
+21 = (Hispanic or Latino) and (American Indian or Alaska,21 = (Hispanic,or Latino) and (American Indian or Alaska
+Native) and (black or African American),Native) and (b,lack or African American)
+22 = (Hispanic or Latino) and respondent reported more than,22 = (Hispanic,or Latino) and respondent reported more than
+one race and does not fit into above categories (codes 18,one race and d,oes not fit into above categories (codes 18
+through 21),through 21),
+,,
+,,
+,,
+,,
+87,87,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                          MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+REL1 to REL16             R       RELATIONSHIP TO HEAD OF HOUSEHOLD,REL1 to REL16,R       RELATIONSHIP TO HEAD OF HOUSEHOLD
+"Range = (1, 7)","Range = (1, 7)",
+Person 1 through Person 16,Person 1 throu,gh Person 16
+1 = Head of household,1 = Head of ho,usehold
+2 = Spouse,2 = Spouse,
+3 = Parent,3 = Parent,
+"4 = Daughter, stepdaughter, son, or stepson","4 = Daughter,","stepdaughter, son, or stepson"
+"5 = Other related person (brother, sister, niece, nephew,",5 = Other rela,"ted person (brother, sister, niece, nephew,"
+"grandchild, great-grandchild, cousin)","grandchild, gr","eat-grandchild, cousin)"
+6 = Foster child,6 = Foster chi,ld
+7 = Unrelated person,7 = Unrelated,person
+,,
+SEX1 to SEX16             R       SEX,SEX1 to SEX16,R       SEX
+"Range = (1, 2)","Range = (1, 2)",
+Person 1 through Person 16,Person 1 throu,gh Person 16
+1 = Male,1 = Male,
+2 = Female,2 = Female,
+,,
+WORK1 to                  C       PERSON-LEVEL WORKING INDICATOR,WORK1 to,C       PERSON-LEVEL WORKING INDICATOR
+"WORK16                            Range = (0, 1)",WORK16,"Range = (0, 1)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+0 = No,0 = No,
+1 = Yes,1 = Yes,
+Identifies individuals who are coded as being employed,Identifies ind,ividuals who are coded as being employed
+"(EMPSTAi > 2), having positive earnings (WAGESi +","(EMPSTAi > 2),",having positive earnings (WAGESi +
+"OTHERNi + SLFEMPi > 0), and working one or more hours",OTHERNi + SLFE,"MPi > 0), and working one or more hours"
+per week (EMPSTBI > 1).,per week (EMPS,TBI > 1).
+,,
+WRKREG1 to                R       WORK REGISTRATION STATUS,WRKREG1 to,R       WORK REGISTRATION STATUS
+"WRKREG16                          Range = (1, 6)",WRKREG16,"Range = (1, 6)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+We recommend using WRKREGi with the understanding,We recommend u,sing WRKREGi with the understanding
+that this variable is best used in conjunction with other,that this vari,able is best used in conjunction with other
+work-related variables. See Appendix A for more details.,work-related v,ariables. See Appendix A for more details.
+1 = Federal exemption for disability,1 = Federal ex,emption for disability
+2 = Federal exemption for reason other than disability,2 = Federal ex,emption for reason other than disability
+"3 = Work registrant, not E&T participant",3 = Work regis,"trant, not E&T participant"
+"4 = Work registrant, voluntary E&T participant",4 = Work regis,"trant, voluntary E&T participant"
+"5 = Work registrant, mandatory E&T participant",5 = Work regis,"trant, mandatory E&T participant"
+"6 = Should have been registered, but was not registered",6 = Should hav,"e been registered, but was not registered"
+,,
+,,
+,,
+,,
+88,88,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                   MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                   MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                         Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                         Detailed Codebook
+Person-Level Characteristics,Person-Level C,haracteristics
+YRSED1 to                 R       HIGHEST EDUCATIONAL LEVEL COMPLETED,YRSED1 to,R       HIGHEST EDUCATIONAL LEVEL COMPLETED
+YRSED16                           We recommend against the use of YRSEDi. See Appendix,YRSED16,We recommend against the use of YRSEDi. See Appendix
+A for more details.,A for more det,ails.
+"Range = (0, 14)","Range = (0, 14",)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+0 = None,0 = None,
+1 = Grade 1,1 = Grade 1,
+2 = Grade 2,2 = Grade 2,
+3 = Grade 3,3 = Grade 3,
+4 = Grade 4,4 = Grade 4,
+5 = Grade 5,5 = Grade 5,
+6 = Grade 6,6 = Grade 6,
+7 = Grade 7,7 = Grade 7,
+8 = Grade 8,8 = Grade 8,
+9 = Grade 9,9 = Grade 9,
+10 = Grade 10,10 = Grade 10,
+11 = Grade 11,11 = Grade 11,
+12 = High school graduate or GED,12 = High scho,ol graduate or GED
+"13 = Postsecondary education (for example, technical",13 = Postsecon,"dary education (for example, technical"
+education or some college),education or s,ome college)
+14 = College graduate or post-graduate degree,14 = College g,raduate or post-graduate degree
+,,
+,,
+,,
+,,
+89,89,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                                    MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                                    MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE                  ORIGIN         DESCRIPTION                                  Detailed Codebook,VARIABLE,ORIGIN         DESCRIPTION                                  Detailed Codebook
+Person-Level Countable Income,Person-Level C,ountable Income
+Person-level countable income (monthly dollar amounts) 38,Person-level c,ountable income (monthly dollar amounts) 38
+CONT1 to                       R        COUNTABLE INCOME FROM CONTRIBUTIONS,CONT1 to,R        COUNTABLE INCOME FROM CONTRIBUTIONS
+"CONT16                                  Range = (0, 2500)",CONT16,"Range = (0, 2500)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"Amount of contributions, charity, and in-kind income",Amount of cont,"ributions, charity, and in-kind income"
+,,
+CSUPRT1 to                     R        COUNTABLE CHILD SUPPORT PAYMENT INCOME,CSUPRT1 to,R        COUNTABLE CHILD SUPPORT PAYMENT INCOME
+"CSUPRT16                                Range = (0, 5046)",CSUPRT16,"Range = (0, 5046)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Court-ordered child support payments received from absent,Court-ordered,child support payments received from absent
+parent or responsible person,parent or resp,onsible person
+,,
+DEEM1 to                       R        COUNTABLE DEEMED INCOME,DEEM1 to,R        COUNTABLE DEEMED INCOME
+"DEEM16                                  Range = (0, 2078)",DEEM16,"Range = (0, 2078)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Income deemed from sponsor of noncitizen member of unit,Income deemed,from sponsor of noncitizen member of unit
+,,
+DIVER1 to                      R        COUNTABLE STATE DIVERSION PAYMENTS,DIVER1 to,R        COUNTABLE STATE DIVERSION PAYMENTS
+"DIVER16                                 Range = (0, 0)",DIVER16,"Range = (0, 0)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+EDLOAN1 to                     R        COUNTABLE INCOME FROM EDUCATIONAL GRANTS,EDLOAN1 to,R        COUNTABLE INCOME FROM EDUCATIONAL GRANTS
+EDLOAN16                                AND LOANS,EDLOAN16,AND LOANS
+"Range = (0, 888)","Range = (0, 88",8)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"Educational grants, scholarships, and loans",Educational gr,"ants, scholarships, and loans"
+,,
+EITC1 to EITC16                R        COUNTABLE INCOME FROM EARNED INCOME TAX,EITC1 to EITC1,6                R        COUNTABLE INCOME FROM EARNED INCOME TAX
+CREDIT,CREDIT,
+"Range = (0, 821)","Range = (0, 82",1)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+ENERGY1 to                     R        COUNTABLE ENERGY ASSISTANCE INCOME,ENERGY1 to,R        COUNTABLE ENERGY ASSISTANCE INCOME
+"ENERGY16                                Range = (0, 815)",ENERGY16,"Range = (0, 815)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+FOSTER1 to                     R        CALCULATED FOSTER CARE RECEIPT,FOSTER1 to,R        CALCULATED FOSTER CARE RECEIPT
+"FOSTER16                                Range = (0, 855)",FOSTER16,"Range = (0, 855)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+,,
+,,
+,,
+38,38,
+Some person-level income amounts have been edited to obtain consistency with final gross income (FSGRINC).,Some person-le,vel income amounts have been edited to obtain consistency with final gross income (FSGRINC).
+,,
+,,
+,,
+90,90,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Person-Level Countable Income,Person-Level C,ountable Income
+GA1 to GA16               R       COUNTABLE GENERAL ASSISTANCE BENEFITS,GA1 to GA16,R       COUNTABLE GENERAL ASSISTANCE BENEFITS
+"Range = (0, 1144)","Range = (0, 11",44)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+OTHERN1 to                R       COUNTABLE OTHER EARNED INCOME,OTHERN1 to,R       COUNTABLE OTHER EARNED INCOME
+"OTHERN16                          Range = (0, 3190)",OTHERN16,"Range = (0, 3190)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+OTHGOV1 to                R       COUNTABLE INCOME FROM OTHER GOVERNMENT,OTHGOV1 to,R       COUNTABLE INCOME FROM OTHER GOVERNMENT
+OTHGOV16                          BENEFITS,OTHGOV16,BENEFITS
+"Range = (0, 1884)","Range = (0, 18",84)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"Includes but not limited to Black Lung Benefits, Railroad",Includes but n,"ot limited to Black Lung Benefits, Railroad"
+"Retirement payments, and payments to farmers by USDA.",Retirement pay,"ments, and payments to farmers by USDA."
+OTHGOVi amounts were recoded as SSI benefits in units with,OTHGOVi amount,s were recoded as SSI benefits in units with
+reported SSI income in cases for which OTHGOVi equaled an,reported SSI i,ncome in cases for which OTHGOVi equaled an
+applicable State SSI supplement.,applicable Sta,te SSI supplement.
+,,
+OTHUN1 to                 R       COUNTABLE OTHER UNEARNED INCOME,OTHUN1 to,R       COUNTABLE OTHER UNEARNED INCOME
+"OTHUN16                           Range = (0, 2785)",OTHUN16,"Range = (0, 2785)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"Includes alimony, foster care payments, dividends and interest,",Includes alimo,"ny, foster care payments, dividends and interest,"
+"rental income, pensions, and union benefits. OTHUNi amounts","rental income,","pensions, and union benefits. OTHUNi amounts"
+were recoded as SSI benefits in units with reported SSI income,were recoded a,s SSI benefits in units with reported SSI income
+in cases for which OTHUNi equaled an applicable State SSI,in cases for w,hich OTHUNi equaled an applicable State SSI
+supplement.,supplement.,
+,,
+SLFEMP1 to                R       COUNTABLE SELF-EMPLOYMENT INCOME,SLFEMP1 to,R       COUNTABLE SELF-EMPLOYMENT INCOME
+"SLFEMP16                          Range = (0, 4007)",SLFEMP16,"Range = (0, 4007)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Net income from any self-employment enterprise.,Net income fro,m any self-employment enterprise.
+,,
+SOCSEC1 to                R       COUNTABLE SOCIAL SECURITY INCOME,SOCSEC1 to,R       COUNTABLE SOCIAL SECURITY INCOME
+"SOCSEC16                          Range = (0, 2317)",SOCSEC16,"Range = (0, 2317)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+SSI1 to SSI16             R       COUNTABLE SSI BENEFITS,SSI1 to SSI16,R       COUNTABLE SSI BENEFITS
+"Range = (0, 1532)","Range = (0, 15",32)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Includes recoded countable income reported as OTHGOVi or,Includes recod,ed countable income reported as OTHGOVi or
+OTHUNi in units with reported SSI income and where,OTHUNi in unit,s with reported SSI income and where
+OTHGOVi or OTHUNi equaled an applicable State SSI,OTHGOVi or OTH,UNi equaled an applicable State SSI
+supplement.,supplement.,
+,,
+,,
+,,
+,,
+91,91,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                             Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                             Detailed Codebook
+Person-Level Countable Income,Person-Level C,ountable Income
+TANF1 to TANF16           R      COUNTABLE TANF PAYMENTS,TANF1 to TANF1,6           R      COUNTABLE TANF PAYMENTS
+"Range = (0, 1640)","Range = (0, 16",40)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Assigned to payee or principal person of assistance group.,Assigned to pa,yee or principal person of assistance group.
+,,
+UNEMP1 to                 R       COUNTABLE UNEMPLOYMENT COMPENSATION,UNEMP1 to,R       COUNTABLE UNEMPLOYMENT COMPENSATION
+UNEMP16                           BENEFITS,UNEMP16,BENEFITS
+"Range = (0, 2709)","Range = (0, 27",09)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+VET1 to VET16             R       COUNTABLE VETERANS’ BENEFITS,VET1 to VET16,R       COUNTABLE VETERANS’ BENEFITS
+"Range = (0, 2073)","Range = (0, 20",73)
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+WAGES1 to                 R       COUNTABLE WAGES AND SALARIES,WAGES1 to,R       COUNTABLE WAGES AND SALARIES
+"WAGES16                           Range = (0, 9984)",WAGES16,"Range = (0, 9984)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+"Amount of wages, salaries, tips, and commission.",Amount of wage,"s, salaries, tips, and commission."
+,,
+WCOMP1 to                 R       COUNTABLE WORKERS’ COMPENSATION BENEFITS,WCOMP1 to,R       COUNTABLE WORKERS’ COMPENSATION BENEFITS
+"WCOMP16                           Range = (0, 1827)",WCOMP16,"Range = (0, 1827)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+,,
+WGESUP1 to                R       COUNTABLE WAGE SUPPLEMENTATION INCOME,WGESUP1 to,R       COUNTABLE WAGE SUPPLEMENTATION INCOME
+"WGESUP16                          Range = (0, 940)",WGESUP16,"Range = (0, 940)"
+Person 1 through Person 16,Person 1 throu,gh Person 16
+Earnings above cash assistance and/or SNAP benefit amount.,Earnings above,cash assistance and/or SNAP benefit amount.
+,,
+,,
+,,
+,,
+92,92,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Detailed Error Findings,Detailed Error,Findings
+Detailed error findings,Detailed error,findings
+AGENCY1 to                R       AGENCY OR CLIENT RESPONSIBILITY,AGENCY1 to,R       AGENCY OR CLIENT RESPONSIBILITY
+"AGENCY9                           Range = (1, 99)",AGENCY9,"Range = (1, 99)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Primary cause of variance,Primary cause,of variance
+1 = Information not reported,1 = Informatio,n not reported
+2 = Incomplete or incorrect information provided; agency not,2 = Incomplete,or incorrect information provided; agency not
+required to verify,required to ve,rify
+3 = Information withheld by client (case referred for,3 = Informatio,n withheld by client (case referred for
+Intentional Program Violation [IPV] investigation),Intentional Pr,ogram Violation [IPV] investigation)
+4 = Incorrect information provided by client (case referred for,4 = Incorrect,information provided by client (case referred for
+IPV investigation),IPV investigat,ion)
+7 = Inaccurate information reported by collateral contact,7 = Inaccurate,information reported by collateral contact
+8 = Acted on incorrect Federal computer match information,8 = Acted on i,ncorrect Federal computer match information
+not requiring verification (such variance is excluded from,not requiring,verification (such variance is excluded from
+error determination but must be recorded),error determin,ation but must be recorded)
+10 = Policy incorrectly applied,10 = Policy in,correctly applied
+12 = Reported information disregarded or not applied,12 = Reported,information disregarded or not applied
+14 = Agency failed to follow up on inconsistent or incomplete,14 = Agency fa,iled to follow up on inconsistent or incomplete
+information,information,
+15 = Agency failed to follow up on impending changes,15 = Agency fa,iled to follow up on impending changes
+16 = Agency failed to verify required information,16 = Agency fa,iled to verify required information
+17 = Computer programming error,17 = Computer,programming error
+18 = Data entry and/or coding error,18 = Data entr,y and/or coding error
+19 = Mass change (error due to problem with computer-,19 = Mass chan,ge (error due to problem with computer-
+generated mass change),generated mass,change)
+20 = Arithmetic computation error,20 = Arithmeti,c computation error
+21 = Computer user error,21 = Computer,user error
+99 = Other,99 = Other,
+,,
+AMOUNT1 to                R       VARIANCE DOLLAR AMOUNT,AMOUNT1 to,R       VARIANCE DOLLAR AMOUNT
+"AMOUNT9                           Range = (0, 13603)",AMOUNT9,"Range = (0, 13603)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Dollar amount of variance,Dollar amount,of variance
+,,
+,,
+,,
+,,
+93,93,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                               Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                               Detailed Codebook
+Detailed Error Findings,Detailed Error,Findings
+DISCOV1 to                R       VARIANCE DISCOVERY,DISCOV1 to,R       VARIANCE DISCOVERY
+"DISCOV9                           Range = (1, 9)",DISCOV9,"Range = (1, 9)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+How variance was discovered,How variance w,as discovered
+1 = Variance clearly identified from case record,1 = Variance c,learly identified from case record
+(documentation not from an automated match),(documentation,not from an automated match)
+2 = Variance clearly identified from case record,2 = Variance c,learly identified from case record
+(documentation from an automated match),(documentation,from an automated match)
+3 = Variance discovered from recipient interview,3 = Variance d,iscovered from recipient interview
+4 = Employer (present or former),4 = Employer (,present or former)
+"5 = Financial institution, insurance company, or other business",5 = Financial,"institution, insurance company, or other business"
+6 = Landlord,6 = Landlord,
+"7 = Government agency or public records, not automated",7 = Government,"agency or public records, not automated"
+match,match,
+"8 = Government agency or public records, automated match",8 = Government,"agency or public records, automated match"
+9 = Other,9 = Other,
+,,
+E_FINDG1 to               R       ERROR FINDING,E_FINDG1 to,R       ERROR FINDING
+"E_FINDG9                          Range = (2, 4)",E_FINDG9,"Range = (2, 4)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Impact of variance,Impact of vari,ance
+2 = Overissuance,2 = Overissuan,ce
+3 = Underissuance,3 = Underissua,nce
+4 = Ineligible,4 = Ineligible,
+,,
+ELEMENT1 to               R       VARIANCE ELEMENT,ELEMENT1 to,R       VARIANCE ELEMENT
+"ELEMENT9                          Range = (111, 820)",ELEMENT9,"Range = (111, 820)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Element of variance,Element of var,iance
+111 = Student status,111 = Student,status
+130 = Citizenship and noncitizen status,130 = Citizens,hip and noncitizen status
+140 = Residency,140 = Residenc,y
+150 = Unit composition,150 = Unit com,position
+151 = Recipient disqualification,151 = Recipien,t disqualification
+160 = Employment and training programs,160 = Employme,nt and training programs
+161 = Time-limited participation,161 = Time-lim,ited participation
+162 = Work registration requirements,162 = Work reg,istration requirements
+163 = Voluntary quit/reduced work effort,163 = Voluntar,y quit/reduced work effort
+164 = Workfare and comparable workfare,164 = Workfare,and comparable workfare
+165 = Employment status/job availability,165 = Employme,nt status/job availability
+166 = Acceptance of employment,166 = Acceptan,ce of employment
+170 = Social Security Number,170 = Social S,ecurity Number
+211 = Bank accounts or cash on hand,211 = Bank acc,ounts or cash on hand
+212 = Nonrecurring lump-sum payment,212 = Nonrecur,ring lump-sum payment
+213 = Other liquid assets,213 = Other li,quid assets
+,,
+,,
+94,94,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                       MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Detailed Error Findings,Detailed Error,Findings
+221 = Real property,221 = Real pro,perty
+222 = Vehicles,222 = Vehicles,
+224 = Other nonliquid resources,224 = Other no,nliquid resources
+225 = Combined resources,225 = Combined,resources
+311 = Wages and salaries,311 = Wages an,d salaries
+312 = Self-employment,312 = Self-emp,loyment
+314 = Other earned income,314 = Other ea,rned income
+321 = Earned income deductions,321 = Earned i,ncome deductions
+323 = Dependent care deduction,323 = Dependen,t care deduction
+331 = RSDI benefits,331 = RSDI ben,efits
+332 = Veterans’ benefits,332 = Veterans,’ benefits
+333 = SSI and/or State SSI supplement,333 = SSI and/,or State SSI supplement
+334 = Unemployment compensation,334 = Unemploy,ment compensation
+335 = Workers’ compensation,335 = Workers�,�� compensation
+336 = Other government benefits,336 = Other go,vernment benefits
+342 = Contributions,342 = Contribu,tions
+343 = Deemed income,343 = Deemed i,ncome
+"344 = TANF, PA, or GA","344 = TANF, PA",", or GA"
+345 = Educational grants/scholarships/loans,345 = Educatio,nal grants/scholarships/loans
+346 = Other unearned income,346 = Other un,earned income
+350 = Child support payments received from absent parent,350 = Child su,pport payments received from absent parent
+361 = Standard deduction,361 = Standard,deduction
+363 = Shelter deduction,363 = Shelter,deduction
+364 = Standard utility allowance,364 = Standard,utility allowance
+365 = Medical expense deductions,365 = Medical,expense deductions
+366 = Child support payment deduction,366 = Child su,pport payment deduction
+371 = Combined gross income,371 = Combined,gross income
+372 = Combined net income,372 = Combined,net income
+520 = Arithmetic computation,520 = Arithmet,ic computation
+530 = Transitional benefits,530 = Transiti,onal benefits
+560 = Reporting systems,560 = Reportin,g systems
+810 = SNAP simplification project,810 = SNAP sim,plification project
+820 = Demonstration projects,820 = Demonstr,ation projects
+,,
+NATURE1 to                R       NATURE OF VARIANCE,NATURE1 to,R       NATURE OF VARIANCE
+"NATURE9                           Range = (6, 309)",NATURE9,"Range = (6, 309)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Nature of each variance,Nature of each,variance
+6 = Eligible person(s) excluded,6 = Eligible p,erson(s) excluded
+7 = Ineligible person(s) included,7 = Ineligible,person(s) included
+"12 = Eligible person(s) with no income, resources, or",12 = Eligible,"person(s) with no income, resources, or"
+deductible expenses excluded,deductible exp,enses excluded
+13 = Eligible person(s) with income excluded,13 = Eligible,person(s) with income excluded
+14 = Eligible person(s) with resources excluded,14 = Eligible,person(s) with resources excluded
+15 = Eligible person(s) with deductible expenses excluded,15 = Eligible,person(s) with deductible expenses excluded
+,,
+,,
+95,95,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                            MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                            MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                   Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                   Detailed Codebook
+Detailed Error Findings,Detailed Error,Findings
+16   =    Newborn improperly excluded,16   =    Newb,orn improperly excluded
+20   =    Incorrect resource limit applied,20   =    Inco,rrect resource limit applied
+24   =    Resource should have been excluded,24   =    Reso,urce should have been excluded
+28   =    Incorrect income limit applied,28   =    Inco,rrect income limit applied
+29   =    Exceeds prescribed limit,29   =    Exce,eds prescribed limit
+30   =    Resource should have been included,30   =    Reso,urce should have been included
+32   =    Failed to consider or incorrectly considered income of,32   =    Fail,ed to consider or incorrectly considered income of
+ineligible member,ineligible mem,ber
+35 =      Unreported source of income (do not use for change in,35 =      Unre,ported source of income (do not use for change in
+employment status),employment sta,tus)
+36   =    Rounding used/not used or incorrectly applied,36   =    Roun,ding used/not used or incorrectly applied
+37   =    All income from source known but not included,37   =    All,income from source known but not included
+38   =    More income received from this source than budgeted,38   =    More,income received from this source than budgeted
+39   =    Employment status changed from unemployed to,39   =    Empl,oyment status changed from unemployed to
+employed,employed,
+40 =      Employment status changed from employed to,40 =      Empl,oyment status changed from employed to
+unemployed,unemployed,
+41 =      Change only in amount of earnings,41 =      Chan,ge only in amount of earnings
+42 =      Conversion to monthly amount not used or incorrectly,42 =      Conv,ersion to monthly amount not used or incorrectly
+applied,applied,
+43   =    Averaging not used or incorrectly applied,43   =    Aver,aging not used or incorrectly applied
+44   =    Less income received from this source than budgeted,44   =    Less,income received from this source than budgeted
+45   =    Cost of doing business not used or incorrectly applied,45   =    Cost,of doing business not used or incorrectly applied
+46   =    Failed to consider/anticipate month with extra pay date,46   =    Fail,ed to consider/anticipate month with extra pay date
+52   =    Deduction that should have been included was not,52   =    Dedu,ction that should have been included was not
+53   =    Deduction included that should not have been,53   =    Dedu,ction included that should not have been
+54   =    Incorrect standard used (not as a result of change in unit,54   =    Inco,rrect standard used (not as a result of change in unit
+size or move),size or move),
+64 =      Incorrect amount used resulting from change in,64 =      Inco,rrect amount used resulting from change in
+residence,residence,
+65 =      Incorrect standard used resulting from change in unit,65 =      Inco,rrect standard used resulting from change in unit
+size,size,
+75   =    Benefit/allotment/eligibility incorrectly computed,75   =    Bene,fit/allotment/eligibility incorrectly computed
+77   =    Unit not entitled to transitional benefits,77   =    Unit,not entitled to transitional benefits
+79   =    Incorrect use of allotment tables,79   =    Inco,rrect use of allotment tables
+80   =    Improper prorating of initial month’s benefits,80   =    Impr,oper prorating of initial month’s benefits
+97   =    Not required to be reported or acted upon based on,97   =    Not,required to be reported or acted upon based on
+time frames and reporting requirements for allotment,time frames an,d reporting requirements for allotment
+differences below the $50 threshold,differences be,low the $50 threshold
+98 =      Transcription or computation errors,98 =      Tran,scription or computation errors
+99 =      Other,99 =      Othe,r
+111 =      Child support payment(s) not considered or incorrectly,111 =      Chi,ld support payment(s) not considered or incorrectly
+applied for initial month(s) of eligibility,applied for in,itial month(s) of eligibility
+112 =      Retained child support payment(s) not considered or,112 =      Ret,ained child support payment(s) not considered or
+incorrectly applied,incorrectly ap,plied
+,,
+,,
+96,96,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                        MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                              Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                              Detailed Codebook
+Detailed Error Findings,Detailed Error,Findings
+120 = Variance/errors resulting from noncompliance with this,120 = Variance,/errors resulting from noncompliance with this
+means-tested public assistance program,means-tested p,ublic assistance program
+123 = Incorrectly prorated,123 = Incorrec,tly prorated
+124 = Variances resulting from use of automatic Federal,124 = Variance,s resulting from use of automatic Federal
+information exchange system,information ex,change system
+127 = Pass-through not considered or incorrectly applied,127 = Pass-thr,ough not considered or incorrectly applied
+200 = Eligible noncitizen excluded,200 = Eligible,noncitizen excluded
+201 = Ineligible noncitizen included,201 = Ineligib,le noncitizen included
+301 = Unit improperly participating under retrospective,301 = Unit imp,roperly participating under retrospective
+budgeting,budgeting,
+302 = Unit improperly participating under prospective,302 = Unit imp,roperly participating under prospective
+budgeting,budgeting,
+303 = Unit improperly participating under monthly reporting,303 = Unit imp,roperly participating under monthly reporting
+304 = Unit improperly participating under quarterly reporting,304 = Unit imp,roperly participating under quarterly reporting
+305 = Unit improperly participating under semiannual,305 = Unit imp,roperly participating under semiannual
+reporting,reporting,
+306 = Unit improperly participating under change reporting,306 = Unit imp,roperly participating under change reporting
+307 = Unit improperly participating under status reporting,307 = Unit imp,roperly participating under status reporting
+308 = Unit improperly participating under 5 hour reporting,308 = Unit imp,roperly participating under 5 hour reporting
+309 = Unit improperly participating in transitional benefits,309 = Unit imp,roperly participating in transitional benefits
+,,
+OCCDATE1 to               R       VARIANCE OCCURRENCE DATE,OCCDATE1 to,R       VARIANCE OCCURRENCE DATE
+"OCCDATE9                          Range = (199012, 999999)",OCCDATE9,"Range = (199012, 999999)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Date each variance occurred (year and month),Date each vari,ance occurred (year and month)
+999999 = Unknown,999999 = Unkno,wn
+,,
+TIMEPER1 to               R       VARIANCE TIME PERIOD,TIMEPER1 to,R       VARIANCE TIME PERIOD
+"TIMEPER9                          Range = (1, 9)",TIMEPER9,"Range = (1, 9)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Time period during which variance occurred,Time period du,ring which variance occurred
+1 = Before most recent action,1 = Before mos,t recent action
+2 = At time of most recent action by agency,2 = At time of,most recent action by agency
+3 = After most recent action by agency,3 = After most,recent action by agency
+9 = Time of occurrence cannot be determined,9 = Time of oc,currence cannot be determined
+,,
+,,
+,,
+,,
+97,97,
+V. CODEBOOK FOR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH,V. CODEBOOK F,OR THE FY 2017 SNAP QC DATABASE                         MATHEMATICA POLICY RESEARCH
+,,
+,,
+,,
+VARIABLE             ORIGIN       DESCRIPTION                                Detailed Codebook,VARIABLE,ORIGIN       DESCRIPTION                                Detailed Codebook
+Detailed Error Findings,Detailed Error,Findings
+VERIF1 to                 R       VARIANCE VERIFICATION,VERIF1 to,R       VARIANCE VERIFICATION
+"VERIF9                            Range = (1, 9)",VERIF9,"Range = (1, 9)"
+Variance 1 through Variance 9,Variance 1 thr,ough Variance 9
+Indicates how each variance was verified,Indicates how,each variance was verified
+1 = From case record (verification not from an automated,1 = From case,record (verification not from an automated
+match),match),
+2 = From case record (verification from an automated match),2 = From case,record (verification from an automated match)
+3 = From information provided by recipient,3 = From infor,mation provided by recipient
+4 = Employer (present or former),4 = Employer (,present or former)
+"5 = Financial institution, insurance company, or other business",5 = Financial,"institution, insurance company, or other business"
+6 = Landlord,6 = Landlord,
+"7 = Government agency or public records, not automated",7 = Government,"agency or public records, not automated"
+match,match,
+"8 = Government agency or public records, automated match",8 = Government,"agency or public records, automated match"
+9 = Other,9 = Other,
+,,
+,,
+,,
+,,
+98,98,
+,,
